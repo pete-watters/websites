@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+<head>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<title>Easy Docs</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media='all' />
+<link rel="stylesheet" href="css/style.css" type="text/css" media='all' />
+<link rel="stylesheet" href="css/pete_style.css" type="text/css" media='all' />
+
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+
+	<!--include document Pagination JS-->
+		 <script type='text/javascript' src='js/pagination.js'></script>
+		  
+</head>
+
+<body>
+<!-- START Main page container - fluid row  -->
+<div class="row-fluid main-page-container">			
+
+
+			 <!-- START HEADER row-->	
+			<div class="header row">
+				<!-- Background colours -->
+			  	<span class="rays"></span>
+				<span class="dots2"></span>				
+				<span class="dots-middle"></span>
+				<!-- START Logo -->
+			 	<div class="span2 offset2">
+  					 <a href="" title="Nova" class="logo"><img src="images/logo.png" alt="Nova" /></a>
+				</div>
+				<!-- END Logo -->
+				<!-- START Login Menu -->
+				  <div id="menu"  class="span2 offset9">
+				    <div class="loggedin">
+					Logged in: <span class="username">Andy Smith</span>
+						 <div class="middleline"></div>
+					 </div>
+					 <a href="" title="Logout" class="logout">Logout <img src="images/logout.png" alt="Logout" /></a>
+				  </div>	
+				  <!-- END Login Menu -->	  
+			</div>
+			<!-- END HEADER row-->	
+
+			<!-- START Main content area - fluid row  -->
+			<div class="row-fluid">
+
+					<!-- START Notification Area -->
+					<div id="workbench-notification"  class="span10 offset1 alert"> 
+						<button type="button" class="close" data-dismiss="alert"></button>
+  						<strong>Warning!</strong> Best check yo self, you're not looking too good.
+  					</div>
+					
+					<!-- Main content area - workbench  -->											
+				    <div id="workbench" class="span11 workbench">								
+		    			<!-- Start  workbench-navigation  -->
+		    			<div class="workbench-navigation row">
+		    							<!-- Start  workbench-tabs  -->		    			
+										<ul class="workbench-tabs nav nav-tabs span3 offset1">
+										  <li class="active"><a href="#">Dashboard</a></li>
+										  <li><a href="#">Templates</a></li>
+										  <li><a href="#">Admin</a></li>
+										</ul>
+										<!-- END  workbench-tabs  -->		    			
+										
+										<!-- Start  workbench-tabs  -->		
+										<ul id="breadcrumb" class="workbench-tabs breadcrumb span3 offset2">
+										  <span>You are here:</span>
+										  <li><a href="#">Home</a> <span class="divider">/</span></li>
+										  <li class="active"><a href="#">Dashboard</a></li>										 
+										</ul>  
+										<!-- END  workbench-tabs  -->
+						</div>
+	    				<!-- End  workbench-tabs  -->
+
+				    	<!-- Start canvas  -->
+					  	<div id="canvas" class="span9">			
+								<!-- Welcome --> 
+								<!-- START TOPSECTION -->
+							     <div id="topsection" class="row-fluid">
+								 		 <div id="uploadlogo">
+										   <a href="" title="Upload Logo" id="uploadbtn"><div id="uploadimg"></div></a>
+										  </div>
+										  
+										  <div id="welcomemsg">
+										  Hi Andy, welcome to Nova!
+										  <br />
+										  <span id="underwelcome">The home of easy, painless paperwork!</span>
+										  </div>
+										  
+										  <div id="postit"></div>												
+								 </div>
+							   <!-- END TOPSECTION -->	
+
+							   <!-- START SEARCH -->
+							  <div id="search"  class="row-fluid">
+							   <div id="innersearch">
+							     Templates: <span id="regtext">Pick a popular template below, or search our database for the template you need!</span>
+							   </div>
+							   	 <form action="" class="searchform" style="float: right; margin-left: 10px; margin-top: -11px;">
+							         <input type="text" onclick="this.value=''" value="Search for a template here..." onblur="formDefault(this)" name="search">
+							         <input type="submit" value="" name="find">
+							    </form>
+							  </div>  	
+								<!-- END SEARCH -->	
+							
+							   <!-- START canvas-main -->
+								<div id="canvas-main" class="row-fluid">  		
+								  		<!-- START DOCUMENT LIST NAVIGATION-->
+									   <div  class="doclist-style row">
+									   <div class="title"><img class="titleIcon" alt="" src="images/stats.png"><h1>Popular Templates</h1></div>
+									   </div>
+											<!-- END DOCUMENT LIST NAVIGATION -->
+								 		<!-- START DOCUMENT LIST -->									
+									   <div class="doclist-style row">
+									   	<ul  id="reportlist-content" class="mydocuments-list span10 offset1 thumbnails">
+													  <li>
+													    <div class="thumbnail row">
+
+													    <div class="mythumbnail span2">
+													    <img src="thumbs/1.jpg" alt="Thumbnail" />
+														</div> 
+														
+														<div class="mythumbnail span3">
+													   	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+														<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.
+														</div>
+
+														<ul class="mylist-details span3">
+															<li><span>Popularity: <strong>Very Popular</strong></span></li>
+															<li><span>Downloads: <strong>364</strong></span></li>
+															<li><span>Partner: <strong>ESA</strong></span></li>
+														</ul>
+																												
+														<div id="generate-doc" class="mythumbnail btn btn-primary span2">
+															Generate</div>
+
+													    </div>
+													  </li>
+													  <li>
+													    <div class="thumbnail row">
+
+													    <div class="mythumbnail span2">
+													    <img src="thumbs/1.jpg" alt="Thumbnail" />
+														</div> 
+														
+														<div class="mythumbnail span3">
+													   	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+														<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.
+														</div>
+
+														<ul class="mylist-details span3">
+															<li><span>Popularity: <strong>Very Popular</strong></span></li>
+															<li><span>Downloads: <strong>364</strong></span></li>
+															<li><span>Partner: <strong>ESA</strong></span></li>
+														</ul>
+																												
+														<div id="generate-doc" class="mythumbnail btn btn-primary span2">
+															Generate</div>
+
+													    </div>
+													  </li><li>
+													    <div class="thumbnail row">
+
+													    <div class="mythumbnail span2">
+													    <img src="thumbs/1.jpg" alt="Thumbnail" />
+														</div> 
+														
+														<div class="mythumbnail span3">
+													   	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+														<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.
+														</div>
+
+														<ul class="mylist-details span3">
+															<li><span>Popularity: <strong>Very Popular</strong></span></li>
+															<li><span>Downloads: <strong>364</strong></span></li>
+															<li><span>Partner: <strong>ESA</strong></span></li>
+														</ul>
+																												
+														<div id="generate-doc" class="mythumbnail btn btn-primary span2">
+															Generate</div>
+
+													    </div>
+													  </li><li>
+													    <div class="thumbnail row">
+
+													    <div class="mythumbnail span2">
+													    <img src="thumbs/1.jpg" alt="Thumbnail" />
+														</div> 
+														
+														<div class="mythumbnail span3">
+													   	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+														<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.
+														</div>
+
+														<ul class="mylist-details span3">
+															<li><span>Popularity: <strong>Very Popular</strong></span></li>
+															<li><span>Downloads: <strong>364</strong></span></li>
+															<li><span>Partner: <strong>ESA</strong></span></li>
+														</ul>
+																												
+														<div id="generate-doc" class="mythumbnail btn btn-primary span2">
+															Generate</div>
+
+													    </div>
+													  </li><li>
+													    <div class="thumbnail row">
+
+													    <div class="mythumbnail span2">
+													    <img src="thumbs/1.jpg" alt="Thumbnail" />
+														</div> 
+														
+														<div class="mythumbnail span3">
+													   	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+														<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.
+														</div>
+
+														<ul class="mylist-details span3">
+															<li><span>Popularity: <strong>Very Popular</strong></span></li>
+															<li><span>Downloads: <strong>364</strong></span></li>
+															<li><span>Partner: <strong>ESA</strong></span></li>
+														</ul>
+																												
+														<div id="generate-doc" class="mythumbnail btn btn-primary span2">
+															Generate</div>
+
+													    </div>
+													  </li>
+										</ul>
+										<!-- the input fields that will hold the variables we will use -->
+									    <input type='hidden' id='current_page' />
+									    <input type='hidden' id='show_per_page' />
+										<!-- START pagination -->
+										<div class="pagination">
+										  <ul>
+										    <li><a href="#">Prev</a></li>
+										    <li><a href="#">1</a></li>
+										    <li><a href="#">2</a></li>
+										    <li><a href="#">3</a></li>
+										    <li><a href="#">4</a></li>
+										    <li><a href="#">Next</a></li>
+										  </ul>
+										</div>
+											<!-- END pagination -->
+									   </div> 
+										<!-- END DOCUMENT LIST -->
+										
+									</div>
+							   <!-- END canvas-main -->
+						</div>
+						<!-- End canvas  -->				  	
+
+						<!-- START Right sidebar -->									
+						<div id="workbench-sidebar" class="span2">
+							<!-- START workbench-sidebar-navigation -->
+							<div id="workbench-sidebar-navigation" class="row-fluid boxrgb offset1">
+								<div class="innerbox">
+								  <!-- Start boxhead -->
+								   <div class="boxhead">
+								     <div id="myprofile-search">
+								     	<span class="myprofile-searchtext">Search</span>
+								     </div> 
+									 
+								   </div>
+								   <div id="myprofile-search-row">
+								   		<input type="text"  onclick="this.value=''"  value="Search..." onblur="formDefault(this)" name="search">
+								   </div>
+								</div>												
+							</div>
+							<!-- END workbench-sidebar-navigation -->
+							<!-- START primaryAction for myprofile -->
+							<div id="workbench-sidebar-primaryAction" class="row-fluid boxrgb offset1">
+								  <div class="innerbox">
+									  <!-- Start boxhead -->
+									   <div class="boxhead">
+									     <div id="myprofile"></div> 
+										 <span class="profiletext">My Profile</span>
+									   </div>
+									  <!-- End boxhead --> 								   
+									   <div id="profilerow1">
+										   <img src="images/avatar.jpg" alt="Your Avatar" id="profileavatar" />
+										   <ul class="rightavatar">
+											  <li><div class="thisisyou">This is You</div></li>
+											  <li><span class="minhead">Company: <strong>Nova LTD</strong></span></li>
+										  	  <li><span class="minhead">Last generated: <a href="" title="Generated Document" class="gendocument">document</a></span></li>
+										  </ul>
+									   </div>
+									   
+									   <ul id="profilerow2">
+										   <li>124<br /><span>Downloads</span></li>
+										   <li>248<br /><span>Favourites</span></li>
+										   <li>412<br /><span>Reported</span></li>
+									   </ul>
+									   <div class="btn btn-warning myviewinfo">	View your info</div>								   
+								  </div>
+							</div>
+							<!-- END primaryAction for myprofile -->								
+							<!-- START workbench-sidebar-context for myprofile -->
+							<div id="workbench-sidebar-context" class="row-fluid boxrgb offset1">
+												  <div class="innerbox">
+												   <div class="boxhead">
+												     <div id="myfolder"></div> 
+													 <span class="foldertext">My Folder</span>
+												   </div>
+												   <!-- START workbench-sidebar-context myfolderlist -->
+												   <ul class="thumbnails myfolderlist">
+													  <li>
+													    <div class="thumbnail">
+														    <p>
+													    	Document 1<span>Date: 23-5-2012</span>
+															<a href="" title="Download"><img src="images/download.png" alt="Download" /></a>
+														    </p>
+													    </div>
+													  </li>
+													  <li>
+													    <div class="thumbnail">
+														    <p>
+													    	Document 1<span>Date: 23-5-2012</span>
+															<a href="" title="Download"><img src="images/download.png" alt="Download" /></a>
+														    </p>
+													    </div>
+													  </li>
+													  <li>
+													    <div class="thumbnail">
+														    <p>
+													    	Document 1<span>Date: 23-5-2012</span>
+															<a href="" title="Download"><img src="images/download.png" alt="Download" /></a>
+														    </p>
+													    </div>
+													  </li>
+													</ul>
+													<!-- END workbench-sidebar-context myfolderlist -->
+												  </div>
+							</div>
+							<!-- END workbench-sidebar-context for myprofile -->
+						</div>
+						<!-- END Right sidebar -->		
+
+					</div>
+					<!-- End workbench  -->
+					
+	      </div>
+	      <!-- END Main content area - fluid row  -->
+		  <!-- START FOOTER -->
+		  <div id="footer"  class="row-fluid">
+			<span class="footerleft span6 offset1">Copyright 2012 <strong>All rights reserved</strong></span>
+					<ul class="footerright span3 offset1">
+					<li>Home</li>
+					<li class="dot">.</li>
+					<li>About</li>
+					<li class="dot">.</li>
+					<li>Contact us</li>
+					</ul>
+		  </div>
+		<!-- END FOOTER -->
+</div>
+<!-- END Main page container - fluid row  -->
+			
+			<!-- Footer -->  		
+								
+				
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.js"></script>
+<script src="js/handlebars-1.0.rc.1.js"></script>
+
+
+
+
+
+
+<script id="some-template" type="text/x-handlebars-template"> 
+    <div class="entry">
+      <h1>{{title}}</h1>
+        <div class="body">
+        {{body}}
+      </div>
+    </div>
+</script>
+
+<script type="text/javascript">
+
+$(function(){
+        var source = $("#some-template").html(); 
+        var template = Handlebars.compile(source); 
+        var data = { title: "My New Post", body: "This is my first post!"} ; 
+        $("#content-placeholder").html(template(data));
+
+        var source1 = "<div class='entry'><h1>{{title}}</h1><div class='body'>{{body}}</div></div>";
+        var template1 = Handlebars.compile(source1); 
+        var data1 = { title: "My New Post", body: "This is my first post!"} ; 
+        $("#content-placeholder1").html(template1(data1));
+
+
+
+});
+
+
+
+
+</script>
+</head>
+
+
+
+<body>
+
+
+<div id="content-placeholder">
+</div>
+<div id="content-placeholder1">
+</div>
+
+</body>
+</html>

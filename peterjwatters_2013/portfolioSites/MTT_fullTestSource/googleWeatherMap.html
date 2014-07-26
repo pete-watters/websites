@@ -1,0 +1,79 @@
+<!--
+You are free to copy and use this sample in accordance with the terms of the
+Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps API Sample</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAuPsJpk3MBtDpJ4G8cqBnjRRaGTYH6UMl8mADNa0YKuWNNa8VNxQCzVBXTx2DYyXGsTOxpWhvIG7Djw" type="text/javascript"></script>
+    <script src="http://gmaps-utility-library.googlecode.com/svn/trunk/markermanager/release/src/markermanager.js"></script>
+
+
+
+ 
+<!-- End LocalStorage
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+ <script type="text/javascript"> 
+    $(document).ready(function() {     
+      var i = 0;
+      
+      // Initial loading of tasks
+      for( i = 0; i < localStorage.length; i++)
+        $("#tasks").append("<li id='task-"+ i +"'>" + localStorage.getItem('task-'+i) + " <a href='#'>x</a></li>");
+        
+      // Add a task
+      $("#addTaskButton").click( function() {
+        if (  $("#task").val() != "" ) {
+          localStorage.setItem( "task-"+i, $("#task").val() );
+          $("#tasks").append("<li id='task-"+i+"'>"+localStorage.getItem("task-"+i)+" <a href='#'>x</a></li>")
+          $("#task-" + i).css('display', 'none');
+          $("#task-" + i).slideDown();
+          $("#task").val("");
+          i++;
+        }
+        return false;
+      });
+      
+      // Remove a task      
+      $("#tasks li a").live("click", function() {
+        localStorage.removeItem($(this).parent().attr("id"));
+        $(this).parent().slideUp('slow', function() { $(this).remove(); } );
+        for(i=0; i<localStorage.length; i++) {
+          if( !localStorage.getItem("task-"+i)) {
+            localStorage.setItem("task-"+i, localStorage.getItem('task-' + (i+1) ) );
+            localStorage.removeItem('task-'+ (i+1) );
+          }
+        }
+      });
+    }); 
+  </script>
+ End LocalStorage-->
+
+
+    <script type="text/javascript" src="js/mapSetup.js"> </script>
+  </head>
+  <body onload="setupMap()" onunload="GUnload()" style="font-family: Arial;border: 0 none;">
+
+<!-- Local Storage list-->
+<div>
+<form id="tasks-list">
+<input id="task">
+</form>
+
+<ul id="tasks"></ul>
+<button id="addTaskButton">addTaskButton</button>
+</div>
+<!-- END Local Storage list-->
+
+
+
+    <div id="map" style="margin: 5px auto; width: 650px; height: 400px"></div>
+    <div style="text-align: center; font-size: large;">
+      Random Weather Map
+    </div>
+</body>
+</html>
+​

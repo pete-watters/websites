@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+<head>
+<title>Title of the document</title>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<link rel="stylesheet" href="css/style.css" type="text/css" media='all' />
+<script type="text/javascript">
+function formDefault(theInput) {
+if (theInput.value =='') {
+theInput.value = theInput.defaultValue;
+}
+}
+</script>
+</head>
+
+<body>
+<div id="rays"></div>
+<div id="dots2"></div>
+<!-- START HEADER -->
+<div id="header">
+  <a href="" title="Nova" id="logo"><img src="images/logo.png" alt="Nova" /></a>
+  <div id="menu">
+    <div id="loggedin">
+	Logged in: <span id="username">Andy Smith</span>
+		 <div class="middleline"></div>
+	 </div>
+	 <a href="" title="Logout" class="logout">Logout <img src="images/logout.png" alt="Logout" /></a>
+  </div>
+</div>
+<!-- END HEADER -->
+
+<div id="dots-middle">&nbsp;</div>
+
+<!-- START CONTEXT -->
+<div id="context">
+  <div id="canvas">
+   <!-- START TOPSECTION -->
+     <div id="topsection">
+	 
+	  <div id="uploadlogo">
+	   <a href="" title="Upload Logo" id="uploadbtn"><div id="uploadimg"></div></a>
+	  </div>
+	  
+	  <div id="welcomemsg">
+	  Hi Andy, welcome to Nova!
+	  <br />
+	  <span id="underwelcome">The home of easy, painless paperwork!</span>
+	  </div>
+	  
+	  <div id="postit"></div>
+	 </div>
+   <!-- END TOPSECTION -->	
+
+  <!-- START SEARCH -->
+  <div id="search">
+   <div id="innersearch">
+     Templates: <span id="regtext">Pick a popular template below, or search our database for the templateyou need!</span>
+   </div>
+   	 <form action="" class="searchform" style="float: right; margin-left: 10px; margin-top: -11px;">
+         <input type="text" onclick="this.value=''" value="Search for a template here..." onblur="formDefault(this)" name="search">
+         <input type="submit" value="" name="find">
+    </form>
+  </div>  
+  
+  <!-- START DOCUMENT LIST -->
+   <div id="doclist">
+   <div class="title"><img class="titleIcon" alt="" src="images/stats.png"><h1>Popular Templates</h1></div>
+   </div>
+   <ul class="documents-list">
+    <li>
+	<img src="thumbs/1.jpg" alt="Thumbnail" />
+	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+	<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.</span>
+	<div class="list-details">
+	<span>Popularity: <strong>Very Popular</strong></span>
+	<span>Downloads: <strong>364</strong></span>
+	<span>Partner: <strong>ESA</strong></span>
+	</div>
+	
+	<a class="generate" href="" title="Generate"><div class="generate-img"></div></a>
+	</li>
+	
+	
+    <li>
+	<img src="thumbs/1.jpg" alt="Thumbnail" />
+	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+	<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.</span>
+	<div class="list-details">
+	<span>Popularity: <strong>Very Popular</strong></span>
+	<span>Downloads: <strong>364</strong></span>
+	<span>Partner: <strong>ESA</strong></span>
+	</div>
+	
+	<a class="generate" href="" title="Generate"><div class="generate-img"></div></a>
+	</li>
+	
+	    <li>
+	<img src="thumbs/1.jpg" alt="Thumbnail" />
+	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+	<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.</span>
+	<div class="list-details">
+	<span>Popularity: <strong>Very Popular</strong></span>
+	<span>Downloads: <strong>364</strong></span>
+	<span>Partner: <strong>ESA</strong></span>
+	</div>
+	
+	<a class="generate" href="" title="Generate"><div class="generate-img"></div></a>
+	</li>
+	
+	    <li>
+	<img src="thumbs/1.jpg" alt="Thumbnail" />
+	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+	<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.</span>
+	<div class="list-details">
+	<span>Popularity: <strong>Very Popular</strong></span>
+	<span>Downloads: <strong>364</strong></span>
+	<span>Partner: <strong>ESA</strong></span>
+	</div>
+	
+	<a class="generate" href="" title="Generate"><div class="generate-img"></div></a>
+	</li>
+	
+	    <li>
+	<img src="thumbs/1.jpg" alt="Thumbnail" />
+	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+	<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.</span>
+	<div class="list-details">
+	<span>Popularity: <strong>Very Popular</strong></span>
+	<span>Downloads: <strong>364</strong></span>
+	<span>Partner: <strong>ESA</strong></span>
+	</div>
+	
+	<a class="generate" href="" title="Generate"><div class="generate-img"></div></a>
+	</li>
+	
+	    <li>
+	<img src="thumbs/1.jpg" alt="Thumbnail" />
+	<a href="" title="Title">Lorem ipsum dolor sit ames</a>
+	<span>Vestibulum dictum adipiscing dolor amauris libero, venenatis.</span>
+	<div class="list-details">
+	<span>Popularity: <strong>Very Popular</strong></span>
+	<span>Downloads: <strong>364</strong></span>
+	<span>Partner: <strong>ESA</strong></span>
+	</div>
+	
+	<a class="generate" href="" title="Generate"><div class="generate-img"></div></a>
+	</li>
+   </ul>
+  </div>
+
+  
+    <div id="right-sidebar">
+	 <div class="boxrgb">
+	  <div class="innerbox">
+	  <!-- Start boxhead -->
+	   <div class="boxhead">
+	     <div id="myprofile"></div> 
+		 <span class="profiletext">My Profile</span>
+	   </div>
+	  <!-- End boxhead --> 
+	   
+	   <div id="profilerow1">
+	   <img src="images/avatar.jpg" alt="Your Avatar" id="profileavatar" />
+	   <ul class="rightavatar">
+	  <li><div class="thisisyou">This is You</div></li>
+	  <li><span class="minhead">Company: <strong>Nova LTD</strong></span></li>
+  	  <li><span class="minhead">Last generated: <a href="" title="Generated Document" class="gendocument">document</a></span></li>
+	  </ul>
+	   </div>
+	   
+	   <ul id="profilerow2">
+	   <li>124<br /><span>Downloads</span></li>
+	   <li>248<br /><span>Favourites</span></li>
+	   <li>412<br /><span>Reported</span></li>
+	   </ul>
+	   
+	   <a href="" title="View your info" id="infoprof"><div class="viewinfo"></div></a>
+	  </div>
+	 </div>
+	
+		 <div class="boxrgb">
+	  <div class="innerbox">
+	   <div class="boxhead">
+	     <div id="myfolder"></div> 
+		 <span class="foldertext">My Folder</span>
+	   </div>
+	   <ul class="folderlist">
+	   <li>Lorem ipsum dolores<span>Date: 23-5-2012<a href="" title="Download"><img src="images/download.png" alt="Download" /></a></span></li>
+	   <li>Ut nec metus id risus<span>Date: 21-5-2012<a href="" title="Download"><img src="images/download.png" alt="Download" /></a></span></li>
+	   <li>Nam aliquet, sem ut<span>Date: 21-5-2012<a href="" title="Download"><img src="images/download.png" alt="Download" /></a></span></li>
+	   <li>Integer sodales acc<span>Date: 20-5-2012<a href="" title="Download"><img src="images/download.png" alt="Download" /></a></span></li>
+	   <li>Duis consectetur urna<span>Date: 2-5-2012<a href="" title="Download"><img src="images/download.png" alt="Download" /></a></span></li>
+	   </ul>
+	   
+	  </div>
+	 </div>
+	 
+	</div>
+</div>
+<!-- END CONTEXT -->
+
+<!-- START FOOTER -->
+<div id="footer">
+<span class="footerleft">Copyright 2012 © <strong>All rights reserved</strong></span>
+<ul class="footerright">
+<li>Home</li>
+<li class="dot">.</li>
+<li>About</li>
+<li class="dot">.</li>
+<li>Contact us</li>
+</ul>
+
+</div>
+<!-- END FOOTER -->
+</body>
+
+</html>

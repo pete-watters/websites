@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+  <META HTTP-EQUIV="Expires" CONTENT="-1">
+  <META HTTP-EQUIV="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Json Display</title>
+    <!-- Include jQuery and bootstrap from hosted CDNs -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootswatch/2.1.1/cerulean/bootstrap.min.css" rel="stylesheet">
+    <!-- Include my CSS file -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- include i18n library file--> 
+    <script type="text/javascript" src="js/jquery.i18n.properties-min-1.0.9.js"></script>
+    <!-- include i18n setup file: this file references i18n/Weather.properties    --> 
+    <script type="text/javascript" src="js/i18nSetup.js"></script>
+
+    <!-- JsonUtil contains my modified plugin to generate HTML based on JSON weather data --> 
+    <script type="text/javascript" src="js/JsonUtil.js"></script>
+    <!-- include functions to setup weather info panels-->
+    <script type="text/javascript" src="js/weatherContainerSetup.js"></script>
+
+</head>
+
+<body>
+<div id="weatherForecastWell0" class="span5">
+</div>
+<div id="weatherForecastWell1" class="span5">
+</div>
+<div id="weatherForecastWell2" class="span5">
+</div>
+<div id="weatherForecastWell3" class="span5">
+</div>
+<script>
+var data = {"current_condition":[{"cloudcover":"25","humidity":"100","observation_time":"02:13 AM","precipMM":"0.0","pressure":"1024","temp_C":"2","temp_F":"36","visibility":"10","weatherCode":"116","weatherDesc":[{"value":"Partly Cloudy"}],"weatherIconUrl":[{"value":"http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"}],"winddir16Point":"WSW","winddirDegree":"250","windspeedKmph":"11","windspeedMiles":"7"}],"request":[{"query":"Dublin, Ireland","type":"City"}],"weather":[{"date":"2013-01-09","precipMM":"0.0","tempMaxC":"8","tempMaxF":"47","tempMinC":"2","tempMinF":"36","weatherCode":"113","weatherDesc":[{"value":"Sunny"}],"weatherIconUrl":[{"value":"http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"winddir16Point":"SE","winddirDegree":"143","winddirection":"SE","windspeedKmph":"9","windspeedMiles":"6"},{"date":"2013-01-10","precipMM":"2.9","tempMaxC":"9","tempMaxF":"48","tempMinC":"1","tempMinF":"34","weatherCode":"116","weatherDesc":[{"value":"Partly Cloudy"}],"weatherIconUrl":[{"value":"http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"winddir16Point":"SE","winddirDegree":"135","winddirection":"SE","windspeedKmph":"22","windspeedMiles":"13"}]};
+
+
+var json = new JsonUtil();
+
+var breadcrumbs ='<ul class="breadcrumb">' +
+                '<li class="active"><a href="#" class="currentWeatherButton">Current Weather</a> <span class="divider">/</span></li>' +
+                '<li><a href="#" class="currentWeatherButton">Two Day Outlook</a> <span class="divider">/</span></li>' +
+                '<li><a href="#" class="currentWeatherButton">Location Info</a></li>' +
+              '</ul>';
+
+$('#weatherForecastWell0').append(breadcrumbs).append(json.tableifyObject(data));
+$('#weatherForecastWell1').append(breadcrumbs).append(json.tableifyObject(data));
+$('#weatherForecastWell2').append(breadcrumbs).append(json.tableifyObject(data));
+$('#weatherForecastWell3').append(breadcrumbs).append(json.tableifyObject(data));
+
+
+
+// initial container setup
+hideWeatherContainers();
+setupWeatherContainers();
+
+/*
+*  @eventHandler on click handler for weather container buttons
+*/
+$(".currentWeatherButton").on("click", function(event){
+            event.preventDefault();
+            var buttonText = $(this).text();
+            // traverse the element tree to the root container of this button
+            // then obtain a reference to its containers to show/ hide them            
+            var sectionContainer = $(this).parent().parent().parent().find($(".weather-container-parent"));
+            // hide weather containers in this section
+            hideWeatherContainers(sectionContainer);
+            // use the button text to determine which element to show
+            switch(buttonText){
+                case "Current Weather":
+                            $($(sectionContainer[0])).show();
+                    break;
+                case "Two Day Outlook":
+                            $($(sectionContainer[1])).show();
+                    break;
+                case "Location Info":
+                            $($(sectionContainer[2])).show();
+                    break;
+            }
+
+        }
+    );
+
+
+</script>
+
+</body>
+</html>

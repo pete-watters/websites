@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+  <META HTTP-EQUIV="Expires" CONTENT="-1">
+  <META HTTP-EQUIV="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Json Display</title>
+
+
+    <!-- Include jQuery and bootstrap from hosted CDNs -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootswatch/2.1.1/cerulean/bootstrap.min.css" rel="stylesheet">
+
+
+  
+  <script type="text/javascript">
+function JsonUtil() {
+    /**
+     * Given a provided object,
+     * return a string representation of the object type.
+     */
+    this.isType = function (obj_) {
+        if (obj_ === null) {
+            return "null";
+        }
+        if (obj_ === NaN) {
+            return "Nan";
+        }
+        var _type = typeof obj_;
+        switch (_type) {
+        case "undefined":
+            return "undefined";
+        case "number":
+            return "number";
+        case "boolean":
+            return "boolean";
+        case "string":
+            return "string";
+        case "function":
+            return "function";
+        case "object":
+            if (this.isArray(obj_)) {
+                return "array";
+            }
+            return "associative";
+        }
+    },
+    /**
+     * Recursively search and display array as an HTML table.
+     */
+    this.tableifyArray = function (array_) {
+        if (array_.length === 0) {
+            return "[ empty ]";
+        }
+
+        var _out = "";
+        for (var i = array_.length - 1; i >= 0; i--) {
+            _out +=  this.tableifyObject(array_[i]);
+        }
+        _out += "";
+        return _out;
+    },
+    /**
+     * Recursively search and display common javascript types as an HTML table.
+     */
+    this.tableifyObject = function (obj_) {
+        /*
+   if (obj_ === '') {
+        return "[ empty ]";
+     }
+     */
+        switch (this.isType(obj_)) {
+        case "null":
+            return "null";
+        case "undefined":
+            return "undefined";
+        case "number":
+            return obj_;
+        case "boolean":
+            return obj_;
+        case "string":
+            return obj_;
+        case "array":
+            return this.tableifyArray(obj_);
+        case "associative":
+            return this.tableifyAssociative(obj_);
+        }
+        return "!error converting object!";
+    },
+    /**
+     * Recursively search and display associative array as an HTML table.
+     */
+    this.tableifyAssociative = function (array_) {
+        if (this.isEmpty(array_)) {
+            return "{ empty }";
+        }
+
+        var _out = "<div class='well'>";
+
+        for (var _index in array_) {
+
+            _out += "<span class='"+_index+"'>"+
+                    // the index - current_condition , request
+                    // "<div class='"+_index+"-data'>" +
+
+                    "<b>" + this.tableifyObject(_index) + "</b> : " + this.tableifyObject(array_[_index]) + " "
+                   // "</div>" + 
+                    "</span>";
+            
+        }
+        _out += "</div>";
+
+        /*
+       _out +=  '<ul class="nav nav-tabs">'+
+                '<li class="active"><a href="#A" data-toggle="tab">Section 1</a></li>'+
+                '<li><a href="#B" data-toggle="tab">Section 2</a></li>'+
+                '</ul>'+
+                '<div class="tabbable">'+
+                    '<div class="tab-content">'+
+                      '<div class="tab-pane active" id="A">'+
+                        '<p>Im in Section A.</p>'+
+                      '</div>'+
+                      '<div class="tab-pane" id="B">'+
+                       ' <p>Howdy, Im in Section B.</p>'+
+                      '</div>'+
+                    '</div>'+
+              '</div>'; */
+        /*
+        var _out = "<table class='JSON-table table table-bordered table-striped table-hover'>";
+
+        for (var _index in array_) {
+
+            _out += "<tr class='JSON-table-row'>"+
+            // the index - current_condition , request
+            "<td class='"+this.tableifyObject(_index)+"-label'>" + this.tableifyObject(_index) + "</td>" + 
+            "<td class='"+this.tableifyObject(_index)+"-data'>"  + this.tableifyObject(array_[_index]) + "</td>"+
+            "</tr>";
+            
+        }
+        _out += "</table>";
+        */
+        return _out;
+    },
+    /**
+     * identify if an associative array is empty
+     */
+    this.isEmpty = function (map_) {
+        for (var _key in map_) {
+            if (map_.hasOwnProperty(_key)) {
+                return false;
+            }
+        }
+        return true;
+    },
+    /**
+     * Identify is an array is a 'normal' (not associative) array
+     */
+    this.isArray = function (v_) {
+        return Object.prototype.toString.call(v_) == "[object Array]";
+    },
+    /**
+     * given the desire to populate a map of maps, adds a master key,
+     * and child key and value to a provided object.
+     */
+    this.addToMapOfMaps = function (map_, mkey_, key_, value_) {
+        if (map_ === undefined) {
+            map_ = {};
+        }
+        if (map_[mkey_] === undefined) {
+            map_[mkey_] = {}
+        }
+        if (map_[mkey_][key_] === undefined) {
+            map_[mkey_][key_] = null;
+        }
+        map_[mkey_][key_] = value_;
+        return map_;
+    }
+}
+  </script>
+</head>
+
+<body>
+<div id="json"/>
+
+<script>
+var data = {"current_condition":[{"cloudcover":"25","humidity":"100","observation_time":"02:13 AM","precipMM":"0.0","pressure":"1024","temp_C":"2","temp_F":"36","visibility":"10","weatherCode":"116","weatherDesc":[{"value":"Partly Cloudy"}],"weatherIconUrl":[{"value":"http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"}],"winddir16Point":"WSW","winddirDegree":"250","windspeedKmph":"11","windspeedMiles":"7"}],"request":[{"query":"Dublin, Ireland","type":"City"}],"weather":[{"date":"2013-01-09","precipMM":"0.0","tempMaxC":"8","tempMaxF":"47","tempMinC":"2","tempMinF":"36","weatherCode":"113","weatherDesc":[{"value":"Sunny"}],"weatherIconUrl":[{"value":"http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"}],"winddir16Point":"SE","winddirDegree":"143","winddirection":"SE","windspeedKmph":"9","windspeedMiles":"6"},{"date":"2013-01-10","precipMM":"2.9","tempMaxC":"9","tempMaxF":"48","tempMinC":"1","tempMinF":"34","weatherCode":"116","weatherDesc":[{"value":"Partly Cloudy"}],"weatherIconUrl":[{"value":"http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"winddir16Point":"SE","winddirDegree":"135","winddirection":"SE","windspeedKmph":"22","windspeedMiles":"13"}]};
+var json = new JsonUtil();
+
+document.getElementById('json').innerHTML = json.tableifyObject(data);
+</script>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Username</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

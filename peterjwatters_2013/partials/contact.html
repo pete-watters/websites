@@ -1,0 +1,97 @@
+	
+<div ng-controller="EmailCtrl">
+
+
+    <div id="topLoaderContainer">
+      <div id="topLoader"> </div>
+    </div>
+        
+<p id="contact-welcome-text">
+        If you have any questions or queries about anything you see on my site or simply want to 
+        say hello fell free to contact me via the form below or else e-mail me at <a title="Send email to peter@peterjwatters.com" href="mailto:peter@peterjwatters.com"> 
+          <b>peter@peterjwatters.com</b> </a>.
+        </p>
+   <form id="contact-form" class="well form-search">
+        
+        <div id="formFieldError" class="ui-widget" style="display:none;"> 
+                 <div class="ui-state-error ui-corner-all">
+                   <div id="formFieldErrorServerMessage"></div>
+                  </div>
+        </div>  
+        <ul>
+          <li><label for="name">Name</label> </li>
+          <li><input type="text" id="name" ng-model="name" placeholder="Your Name" class="input-medium" required/></li>
+          <li><label for="email">Email</label> </li>
+          <li><input type="email" id="email" ng-model="email" placeholder="Your Email" class="input-medium" required /></li>
+          <li><label for="subject"></label>Subject </li>
+          <li><input type="text" id="subject" ng-model="subject" placeholder="Subject" class="input-medium" required/></li>
+          <li><label for="message">Message</label> </li>
+          <li><textarea name="message" id="message" ng-model="message"  placeholder="Your Message" class="input-xlarge" required/></li>
+          <li><simple-captcha valid="captchaValid"></simple-captcha></li>
+          <li><input type="submit" class="btn" ng-click="submit()" /> </li>
+        </ul>
+    </form>
+
+
+  <!-- Message preview DIV -->
+  <div ng-model="result" id="email-confirmation" style="display:none;">  
+     <div class="ui-widget">
+        <div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;"> 
+          <p>
+            <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+            <strong>Confirmation of your message</strong> 
+          </p>
+             <ul>
+              {{result}}
+              
+              <li><b>From: </b> {{name}} {{email}}</li>
+              <li class="long-text"><b>Subject:</b> {{subject}}</li>
+              <li class="long-text"><b>Message: </b> <br />{{message}}</li>
+              
+              Thank you for getting in touch. <br />
+              Peter
+            </ul>
+        </div>
+      </div>
+
+      
+  </div>
+
+<!-- Error message DIV -->
+  <div ng-model="result" id="email-error" style="display:none;">
+    <div class="ui-widget">
+        <div class="ui-state-error ui-corner-all"> 
+            <p>
+              <span class="ui-icon ui-icon-alert"></span> 
+              <strong>Email Failed:</strong> 
+               </p>
+          <!-- Message preview DIV -->
+          <div class="ui-widget">
+            <div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;"> 
+              <ul >
+                <pre>
+                <li><b>From: </b> {{name}} {{email}}</li>
+                <li class="long-text"><b>Subject:</b> {{subject}}</li>
+                <li class="long-text"><b>Message: </b> <br />{{message}}</li>
+                </pre>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+    </div>
+     <input value="Re-try" type="submit" class="btn" ng-click="refreshForm()" />
+  </div>
+
+          <div class="server-side-error"</div>
+            The server was unable to process your request. <br/>
+            {{result}} <span id="formFieldErrorServer"></span>            
+            If you continue to have difficult please try sending your message to 
+            <a title="Send email to peter@peterjwatters.com" href="mailto:peter@peterjwatters.com"> 
+            <b>peter@peterjwatters.com</b> </a>via an email client.
+          </div>
+
+</div>
+
+
+

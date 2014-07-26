@@ -1,0 +1,93 @@
+<!--
+You are free to copy and use this sample in accordance with the terms of the
+Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps API Sample</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAuPsJpk3MBtDpJ4G8cqBnjRRaGTYH6UMl8mADNa0YKuWNNa8VNxQCzVBXTx2DYyXGsTOxpWhvIG7Djw" type="text/javascript"></script>
+    <script src="http://gmaps-utility-library.googlecode.com/svn/trunk/markermanager/release/src/markermanager.js"></script>
+
+
+
+ 
+<!-- End LocalStorage -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+ <script type="text/javascript"> 
+   $(document).ready(function() {     
+      var i = 0;
+      
+      // Initial loading of locations
+      for( i = 0; i < localStorage.length; i++){        
+        $("#locations").append("<li id='location-"+ i +"'>" + localStorage.getItem('location-'+i) + " <a href='#'>x</a></li>");
+      }
+        
+      // Add a location
+      $("#addLocationButton").click( function() {
+        if (  $("#location").val() != "" ) {
+          localStorage.setItem( "location-"+i, $("#location").val() );
+          $("#locations").append("<li id='location-"+i+"'>"+localStorage.getItem("location-"+i)+" <a href='#'>x</a></li>")
+          $("#location-" + i).css('display', 'none');
+          $("#location-" + i).slideDown();
+          $("#location").val("");
+          i++;
+        }
+        return false;
+      });
+      
+      // Remove a location      
+      $("#locations li a").live("click", function() {
+        localStorage.removeItem($(this).parent().attr("id"));
+        $(this).parent().slideUp('slow', function() { $(this).remove(); } );
+        for(i=0; i<localStorage.length; i++) {
+          if( !localStorage.getItem("location-"+i)) {
+            localStorage.setItem("location-"+i, localStorage.getItem('location-' + (i+1) ) );
+            localStorage.removeItem('location-'+ (i+1) );
+          }
+        }
+      });
+    }); 
+  </script>
+<!-- End LocalStorage-->
+
+  <script type="text/javascript" src="js/mapSetup.js"> </script>
+</head>
+
+<body onload="setupMap()" onunload="GUnload()" style="font-family: Arial;border: 0 none;">
+
+<!-- Local Storage list-->
+<div>
+<form id="locations-list">
+    <input id="location">
+</form>
+<ul id="locations">
+</ul>
+<button id="addLocationButton">addlocationButton</button>
+</div>
+<!-- END Local Storage list-->
+
+<!-- Geo lookup -->
+<div>
+     <form action="#" onsubmit="showAddress(this.address.value); return false">
+      <p>
+        Enter an address, and then drag the marker to tweak the location.
+        <br/>
+        The latitude/longitude will appear in the infowindow after each geocode/drag.
+      </p>
+      <p>
+        <input type="text" style="width:350px" name="address" value="1600 Amphitheatre Pky, Mountain View, CA" />
+        <input type="submit" value="Go!" />
+      </p>
+ </form>
+</div>
+<!-- Geo lookup -->
+    <div id="map" style="margin: 5px auto; width: 650px; height: 400px"></div>
+    <div style="text-align: center; font-size: large;">
+      Random Weather Map
+    </div>
+</body>
+</html>
+​
