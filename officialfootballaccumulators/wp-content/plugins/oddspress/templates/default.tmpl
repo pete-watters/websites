@@ -1,0 +1,8 @@
+<div class="simplepie">
+{IF_ERROR_BEGIN}<p class="error">{ERROR_MESSAGE}</p>{IF_ERROR_END}
+
+<h3>{ODDSPRESS_LEAGUE_NAME}</h3>
+{ITEM_LOOP_BEGIN}
+<b><a href="{ITEM_PERMALINK}{ITEM_PARTNERLINK}">{ITEM_TITLE}</a></b>&nbsp;{ODDS_HOME} - {ODDS_DRAW} - {ODDS_AWAY}<br/>
+{ITEM_LOOP_END}
+</div>

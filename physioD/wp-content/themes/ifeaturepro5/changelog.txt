@@ -1,0 +1,132 @@
+iFeature Pro 5 Changelog
+
+****************************
+
+Version 5.1.0.5 (3/14/13)
+-Added Twitter handle filter
+-Added Filter for default header value
+-Added Title for templates
+-Set default fallback for post meta
+-Fixed custom post type boxes option section display
+-Added theme compatability for Woocommerce
+-Added Woocommerce shop page layout
+-Added filter for post type visibility
+-Fixed boxes image bug when no image supplied
+-New option to add javascript to footer
+-Recent posts ids changed to classes
+-Slider image is only clickable when url is defined
+-Removed home icon from all menus except header
+-Fixed footer styling that prevented footer from being full width on mobile screens
+
+Version 5.1.0.4 (2/20/13)
+-Moved wp_footer()
+-Language definitions updated
+-Added Croation and Norwegian
+-Updated Chinese, French and German
+-Styled 3rd tier menu for mobile screens
+-Fix Excerpt
+-Fix Feed title
+-Fix ie8 container width
+-Added fallback menu with styling
+-Callout added allowed html tags for simple styling of the Callout text a, br, em ,strong, blockquote, span, ul, ol and li
+-Changed Callout text input to textarea
+
+Version 5.1.0.3 (1/25/13)
+-Fix upload bug
+
+Version 5.1.0.2 (01/23/13)
+-Added skin image selector
+-POT file Updates
+-Customizer defaults setup
+-Slider Fix for ie9
+-Fix menu bugs
+-Style class name change to avoid WP conflict
+-Fix for page options not saving
+-Fix Slider bug
+-Fix Pagination bug
+
+Version 5.1.0.1 (01/04/13)
+-Featured image fix
+-Added edit link for admin in blog post page
+-Footer in mobile view now has padding
+-Styling for code after comments
+-New background image
+-Set defaults to work in live preview
+-Menu 3rd tier styled
+-Added classes to excerpt links
+-Code clean up
+-Bug fixes
+-HTML Box now accepts all HTML elements
+
+Version 5.1.0.0 (12/21/12)
+-Added language translation files for German, Spanish, French, Hindi, Indonesian, Italian, Japanese, Dutch, Brazilian, Russian and Chinese.
+-Improved mobile menu design
+-Search result pages title links to page/post
+-Active page now highlighted in menu
+-Google fonts can now be accessed through SSL
+-Re-organization of option functions
+-Custom CSS Validation Fix
+-Added Link from featured image to post
+
+Version 5.0.9	(12/11/12)
+-Fix upload button in pages
+-Fix default load on theme activation
+-Fix breadcrumbs
+-Removed blank space when page title is removed
+
+Version 5.0.8 (12/09/12)
+-Fix Custom CSS
+
+Version 5.0.7 (12/07/12)
+-Fix background color in customizer and backgrounds
+
+Version 5.0.6 (12/07/12)
+
+-Fix bugs with WP debug
+-Fix default drag and drop options
+
+Version 5.0.5 (12/06/12)
+
+-Fix swipe actions on touch devices for WP3.5
+-Fixed 404 background image call
+
+Version 5.0.4 (12/05/12)
+
+-Fixed page drag and drop elements in WP3.5
+-Fixed import
+
+Version 5.0.3 (12/05/12)
+
+-Created theme specific filters
+-Fixed tag link styling
+-Fixed iFeature comment bug
+-Moved pro functions and options to submodule
+-Slider control styling fix
+-CyberChimps backgrounds now working in Customizer
+-Responsive video embeds
+-Toggle for slider caption
+-Filtered out byline with no content
+-Added Google map to social icon header section
+-Set up theme defaults
+-Changed Lightbox naming convention to avoid conflict with plugins
+-Fixed breadcrumbs display
+-Fixed callout bug
+
+Version 5.0.2 (11-29-12)
+
+-New theme updater
+
+Version 5.0.1 (11-27-12)
+
+-Removed default widget text.
+-Improved filters.
+-Enabled Home button for menu.
+-Fixed media uploader conflict.
+-Added slider speed option, fixed height, posts.
+-Customizer support added.
+-3.5 background bug fix.
+-Top bar fix for iPhone.
+
+Version 5.0 (11-24-12)
+
+-Initial Release

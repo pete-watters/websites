@@ -1,0 +1,44 @@
+[06-May-2013 18:39:21 UTC] PHP Notice: A feed could not be found at http://peterjwatters.com/officialfootballaccumulators/wp-content/plugins/oddspress/oddspress-feed.php?pacompid=OddsPress League Name. in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[06-May-2013 18:39:21 UTC] PHP Notice: A feed could not be found at http://peterjwatters.com/officialfootballaccumulators/wp-content/plugins/oddspress/oddspress-feed.php?pacompid=OddsPress League Name. in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[06-May-2013 18:40:00 UTC] PHP Notice: A feed could not be found at http://peterjwatters.com/officialfootballaccumulators/wp-content/plugins/oddspress/oddspress-feed.php?pacompid=OddsPress League Name. in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[06-May-2013 18:40:00 UTC] PHP Notice: A feed could not be found at http://peterjwatters.com/officialfootballaccumulators/wp-content/plugins/oddspress/oddspress-feed.php?pacompid=OddsPress League Name. in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[06-May-2013 18:40:51 UTC] PHP Notice: A feed could not be found at http://peterjwatters.com/officialfootballaccumulators/wp-content/plugins/oddspress/oddspress-feed.php?pacompid=OddsPress League Name. in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[06-May-2013 18:40:51 UTC] PHP Notice: A feed could not be found at http://peterjwatters.com/officialfootballaccumulators/wp-content/plugins/oddspress/oddspress-feed.php?pacompid=OddsPress League Name. in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[06-May-2013 18:45:16 UTC] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/football-tips/football_tips.php on line 22
+[06-May-2013 18:45:16 UTC] PHP Warning:  file_get_contents(http://server1.goal.mu/bookieodds.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/football-tips/football_tips.php on line 22
+[18-May-2013 01:23:21 UTC] PHP Notice: A feed could not be found at http://www.facebook.com/feeds/page.php?id=10150272456495026.520294.808695025&format=rss20 in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[18-May-2013 01:23:22 UTC] PHP Notice: A feed could not be found at http://www.facebook.com/feeds/page.php?id=10150272456495026.520294.808695025&format=rss20 in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[18-May-2013 01:30:43 UTC] WordPress database error Table 'peterjwa_wp823.wp_socialslider' doesn't exist for query SELECT * FROM wp_socialslider WHERE adres NOT LIKE '' AND ikona NOT LIKE '\_%' ORDER BY id ASC made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/TheCorporation/page-full.php'), get_template_part, locate_template, load_template, require('/themes/TheCorporation/home.php'), get_footer, locate_template, load_template, require_once('/themes/TheCorporation/footer.php'), wp_footer, do_action('wp_footer'), call_user_func_array, SocialSlider
+[24-Jul-2013 15:47:21 UTC] Successfully fetched 'http://orkneycommunities.co.uk/upload/footballshirts.html': GET response code 200
+[24-Jul-2013 23:38:43 UTC] URL fetching not allowed for ''
+[25-Jul-2013 06:31:24 UTC] Successfully fetched 'http://www.kosher-wine.co.uk/': GET response code 200
+[30-Jul-2013 17:03:38 UTC] Successfully fetched 'http://www.dqnews.com/news/rrmain080213.aspx': GET response code 200
+[01-Oct-2013 06:49:29 UTC] Successfully fetched 'http://light.prosto50.ru/?ref=schemer': GET response code 200
+[08-Oct-2013 00:36:25 UTC] Successfully fetched 'http://light.prosto50.ru/?ref=schemer': GET response code 200
+[24-Oct-2013 03:48:19 UTC] Successfully fetched 'http://www.pharaoh-mlm.biz/': GET response code 200
+[26-Nov-2013 01:19:50 UTC] Successfully fetched 'http://www.shopping-yo.com/': GET response code 200
+[18-Dec-2013 15:36:17 UTC] Successfully fetched 'http://www.arc-antibes.fr/': GET response code 200
+[19-Dec-2013 02:30:07 UTC] Successfully fetched 'http://www.arc-antibes.fr/': GET response code 200
+[19-Dec-2013 07:42:39 UTC] Successfully fetched 'http://www.google.fr/': GET response code 200
+[06-Jan-2014 21:07:39 UTC] Successfully fetched 'http://fermandia.biz/': GET response code 200
+[28-Jan-2014 13:24:35 UTC] Successfully fetched 'http://hussygirl.ru/': GET response code 200
+[27-Feb-2014 20:08:47 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11879
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11881
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11879
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11881
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11879
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11881
+[27-Feb-2014 20:08:48 UTC] PHP Notice: A feed could not be found at http://www.facebook.com/feeds/page.php?id=405206902878885&format=rss20 in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11879
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11881
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11879
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11881
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11879
+[27-Feb-2014 20:08:48 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 11881
+[27-Feb-2014 20:08:48 UTC] PHP Notice: A feed could not be found at http://www.facebook.com/feeds/page.php?id=405206902878885&format=rss20 in /home/peterjwa/public_html/officialfootballaccumulators/wp-content/plugins/simplepie-core/simplepie.inc on line 1673
+[07-Mar-2014 13:16:32 UTC] Successfully fetched 'http://golden-birds.biz/': GET response code 200
+[09-Mar-2014 22:20:11 UTC] Successfully fetched 'http://empire-pharaohs.com/': GET response code 200
+[03-Apr-2014 21:15:48 UTC] Successfully fetched 'http://www.nike.com/fr/fr_fr/': GET response code 200
+[06-Apr-2014 14:14:08 UTC] Successfully fetched 'http://fish-empire.net/': GET response code 200
+[06-Apr-2014 22:56:23 UTC] URL fetching not allowed for ''
+[16-Apr-2014 14:51:37 UTC] Successfully fetched 'http://fish-empire.net/': GET response code 200

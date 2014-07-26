@@ -1,0 +1,27 @@
+<div class="simplepie">
+{IF_ERROR_BEGIN}<p class="error">{ERROR_MESSAGE}</p>{IF_ERROR_END}
+
+<table border="0" width="500" cellpadding="2" cellspacing="0">
+<tr>
+	<td colspan="2"><b>{ODDSPRESS_LEAGUE_NAME}</b></td>
+	<td><b>Home</b></td>
+	<td><b>Draw</b></td>
+	<td><b>Away</b></td>
+</tr>
+{ITEM_LOOP_BEGIN}
+<tr>
+	<td>{KICKOFF}</td>
+	<td><b><a href="http://www.willhill.com/" title="William Hill {ITEM_TITLE} Betting" onclick="window.parent.location='{ITEM_PERMALINK}{ITEM_PARTNERLINK}'; return false;">{ITEM_TITLE}</a></b></td>
+	<td>{ODDS_HOME}</td>
+	<td>{ODDS_DRAW}</td>
+	<td>{ODDS_AWAY}</td>
+</tr>
+{ITEM_LOOP_END}
+</table>
+<table border="0" width="500" cellpadding="2" cellspacing="0">
+<tr>
+	<td colspan="2"><span style="font-size: 10px;">odds supplied by <a href="http://www.willhill.com/?aff=moddspress">william hill</a></span></td>
+	<td colspan="2" align="right"><span style="font-size: 10px;">powered by <a href="http://www.oddspress.com/">oddspress</a></span></td>
+</tr>
+</table>
+</div>

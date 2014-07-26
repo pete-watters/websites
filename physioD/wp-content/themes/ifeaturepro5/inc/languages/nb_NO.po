@@ -1,0 +1,2111 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Project-Id-Version: iFeature Pro 5\n"
+"Language: no\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: ../../404.php:34
+msgid "Oops! That page cannot be found."
+msgstr "Oi! Denne siden finnes ikke."
+
+#: ../../404.php:42
+msgid ""
+"It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr ""
+"Det ser ut som ingenting ble funnet på denne plasseringen. Kanskje du bør "
+"forsøke å søke etter det?"
+
+#: ../../archive.php:34
+msgid "Category Archives: "
+msgstr "Kategoriarkiv:␣"
+
+#: ../../archive.php:37
+msgid "Tag Archives: "
+msgstr "Tag Archives: "
+
+#: ../../archive.php:44
+msgid "Author Archives: "
+msgstr "Forfatterarkiv:␣"
+
+#: ../../archive.php:52
+msgid "Daily Archives: "
+msgstr "Daglig Arkiv:␣"
+
+#: ../../archive.php:55
+msgid "Monthly Archives: "
+msgstr "Månedlig Arkiv:␣"
+
+#: ../../archive.php:58
+msgid "Yearly Archives: "
+msgstr "Årlig Arkiv:␣"
+
+#: ../../archive.php:61 ../../footer.php:40 ../../sidebar-left.php:32
+#: ../../sidebar-right.php:32 ../../sidebar.php:32
+msgid "Archives"
+msgstr "Arkiv"
+
+#: ../../comments.php:34
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "One thought on \" %2$s 2 $ s \""
+msgstr[1] "One thought on \" %2$s 2 $ s \""
+
+#: ../../comments.php:41 ../../comments.php:61
+msgid "Comment navigation"
+msgstr "Kommantarnavigasjon"
+
+#: ../../comments.php:42
+msgid "Older Comments"
+msgstr "Eldre kommentarer"
+
+#: ../../comments.php:43
+msgid "Newer Comments "
+msgstr "Nyere kommentarer"
+
+#: ../../comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&larr; Eldre kommentarer"
+
+#: ../../comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &larr;"
+
+#: ../../comments.php:73
+msgid "Comments are closed."
+msgstr "Det er stengt for kommentarer"
+
+#: ../../content.php:32 ../../content.php:49 ../../content.php:56
+#: ../../cyberchimps/functions.php:429
+msgid "Permalink to %s"
+msgstr "Permalink til %s"
+
+#: ../../content.php:79 ../../content.php:93 ../../content.php:125
+msgid "Continue reading"
+msgstr "Fortsett lesing"
+
+#: ../../content.php:80 ../../content.php:112 ../../content.php:120
+#: ../../content.php:126 ../../image.php:47 ../../image.php:141
+msgid "Edit"
+msgstr "Rediger"
+
+#: ../../content.php:81 ../../content.php:94 ../../content.php:127
+#: ../../image.php:75
+msgid "Pages:"
+msgstr "Sider:"
+
+#: ../../footer.php:33 ../../sidebar-left.php:25 ../../sidebar-right.php:25
+#: ../../sidebar.php:25
+msgid "Pages"
+msgstr "Sider"
+
+#: ../../footer.php:47 ../../sidebar-left.php:39 ../../sidebar-right.php:39
+#: ../../sidebar.php:39 ../../cyberchimps/options/options-core.php:289
+msgid "Categories"
+msgstr "Kategorier"
+
+#: ../../footer.php:54 ../../footer.php:58 ../../sidebar-left.php:46
+#: ../../sidebar-left.php:50 ../../sidebar-right.php:46
+#: ../../sidebar-right.php:50 ../../sidebar.php:46 ../../sidebar.php:50
+msgid "WordPress"
+msgstr "Wordpress"
+
+#: ../../footer.php:58 ../../sidebar-left.php:50 ../../sidebar-right.php:50
+#: ../../sidebar.php:50
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Drevet av Wordpress, Drives med WordPress, en toppmoderne semantisk "
+"publiseringsplattform."
+
+#: ../../functions.php:42
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../../functions.php:42 ../../functions.php:65
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: ../../functions.php:52
+msgid "says:"
+msgstr "sier:"
+
+#: ../../functions.php:55
+msgid "Your comment is awaiting moderation."
+msgstr "Kommentaren din venter på gjennomgang"
+
+#: ../../functions.php:63
+msgid "at"
+msgstr "på"
+
+#: ../../functions.php:128
+msgid "CyberChimps Pro Responsive WordPress Starter Theme"
+msgstr "Cyberchimps Pro Responsive WordPress Starter Theme"
+
+#: ../../functions.php:249 ../../cyberchimps/functions.php:374
+msgid "Tags:"
+msgstr "Tags:"
+
+#: ../../functions.php:270
+msgid "iMenu Options"
+msgstr "iMenu-alternativer"
+
+#: ../../functions.php:281
+msgid "Top Header Bar"
+msgstr "Tittel"
+
+#: ../../functions.php:288
+msgid "Menu Home Icon"
+msgstr "Meny hjemmeikon"
+
+#: ../../functions.php:295
+msgid "Add Telephone Number"
+msgstr "Legg til telefonnummer"
+
+#: ../../functions.php:302
+msgid "Telephone Number"
+msgstr "Telefonnummer"
+
+#: ../../functions.php:306 ../../functions.php:350
+msgid "Enter your phone number"
+msgstr "Tast inn ditt telefonnummer"
+
+#: ../../functions.php:310
+msgid "Add Email Address"
+msgstr "Legg til epostadresse"
+
+#: ../../functions.php:317 ../../cyberchimps/options/options-core.php:868
+msgid "Email"
+msgstr "E-post"
+
+#: ../../image.php:37
+msgid "Published"
+msgstr "Publisert"
+
+#: ../../image.php:37
+msgid "size:"
+msgstr "størrelse:"
+
+#: ../../image.php:37
+msgid "in"
+msgstr "i:"
+
+#: ../../image.php:51
+msgid "Previous"
+msgstr "Forrige"
+
+#: ../../image.php:52
+msgid "Next"
+msgstr "Neste"
+
+#: ../../image.php:133
+msgid "Post a comment"
+msgstr "Legg til kommentar"
+
+#: ../../image.php:133
+msgid "or leave a trackback:"
+msgstr "eller legg igjen en TrackBack"
+
+#: ../../image.php:133 ../../image.php:135
+msgid "Trackback URL"
+msgstr "TrackBack-URL"
+
+#: ../../image.php:135
+msgid "Comments are closed, but you can leave a trackback:"
+msgstr "Det er stengt for kommentarer, men du kan legge igjen en TrackBack:"
+
+#: ../../image.php:137
+msgid "Trackbacks are closed, but you can"
+msgstr "Det er stengt for TrackBacks, men du kan"
+
+#: ../../image.php:137
+msgid "post a comment"
+msgstr "legge til en kommentar"
+
+#: ../../image.php:139
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Det er stengt for både kommentarer og TrackBacks."
+
+#: ../../no-results.php:19
+msgid "Nothing Found"
+msgstr "Ingenting funnet."
+
+#: ../../no-results.php:25
+msgid "Ready to publish your first post?"
+msgstr "Klar til å publisere din første beskjed?"
+
+#: ../../no-results.php:25
+msgid "Get started here"
+msgstr "Start her."
+
+#: ../../no-results.php:29
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Beklager, men ingenting "
+
+#: ../../no-results.php:34
+msgid ""
+"It seems we cannot find what you are looking for. Perhaps searching can help?"
+msgstr ""
+"Det synes vi kan ikke finne det du leter etter. Kanskje søker kan hjelpe?"
+
+#: ../../search.php:31
+msgid "Search Results for:"
+msgstr "Søkeresultater for:"
+
+#: ../../searchform.php:18 ../../cyberchimps/options/options-core.php:243
+msgid "Search"
+msgstr "Søk"
+
+#: ../../sidebar-left.php:56 ../../sidebar-right.php:56 ../../sidebar.php:56
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: ../../sidebar-left.php:58 ../../sidebar-right.php:58 ../../sidebar.php:58
+msgid "Entries (RSS)"
+msgstr "Entries (RSS)"
+
+#: ../../sidebar-left.php:59 ../../sidebar-right.php:59 ../../sidebar.php:59
+msgid "Comments (RSS)"
+msgstr "Kommentarer (RSS)"
+
+#: ../../cyberchimps/functions.php:320
+msgid "View all posts by"
+msgstr "Vis alle innlegg av"
+
+#: ../../cyberchimps/functions.php:322
+msgid "Posted on "
+msgstr "Publisert␣"
+
+#: ../../cyberchimps/functions.php:323
+msgid " by "
+msgstr "␣av␣"
+
+#: ../../cyberchimps/functions.php:348
+msgid "Posted in"
+msgstr "Publisert i"
+
+#: ../../cyberchimps/functions.php:397 ../../cyberchimps/functions.php:409
+msgid "Leave a comment"
+msgstr "Legg igjen kommentarer"
+
+#: ../../cyberchimps/functions.php:400
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: ../../cyberchimps/functions.php:400
+#: ../../cyberchimps/options/options-core.php:291
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: ../../cyberchimps/functions.php:509 ../../cyberchimps/inc/meta-box.php:133
+#: ../../elements/breadcrumbs.php:167 ../../elements/init.php:88
+msgid "Page"
+msgstr "Side"
+
+#: ../../cyberchimps/functions.php:609
+msgid "Continue Reading"
+msgstr "Fortsett Reading"
+
+#: ../../cyberchimps/functions.php:783
+msgid "Welcome"
+msgstr "Velkommen!"
+
+#: ../../cyberchimps/functions.php:787
+msgid "Congratulations you have successfully installed"
+msgstr "Gratulerer! Du har installert"
+
+#: ../../cyberchimps/functions.php:789
+msgid "Your website is important to us, so please read the"
+msgstr "Ditt nettsted er viktig for oss, så kan du lese"
+
+#: ../../cyberchimps/functions.php:789
+msgid "instructions"
+msgstr "instruksjonene"
+
+#: ../../cyberchimps/functions.php:789
+msgid "to learn how to use"
+msgstr "for å lære hvordan du skal bruke"
+
+#: ../../cyberchimps/functions.php:791
+msgid "If you have any questions please post in our"
+msgstr "Hvis du har noen spørsmål kan du legge inn i vår"
+
+#: ../../cyberchimps/functions.php:791
+msgid "support forum"
+msgstr "Forumet"
+
+#: ../../cyberchimps/functions.php:791
+msgid "and we will get back to you as soon as we can"
+msgstr "og vi vil komme tilbake til deg så snart vi kan"
+
+#: ../../cyberchimps/functions.php:793
+msgid "Thank you for choosing CyberChimps Professional WordPress Themes"
+msgstr "Takk for at du CyberChimps Professional WordPress Themes"
+
+#: ../../cyberchimps/functions.php:796
+#: ../../cyberchimps/options/options-core.php:1046
+#: ../../cyberchimps/options/options-core.php:1062
+#: ../../cyberchimps/options/options-core.php:1273
+msgid "Pro"
+msgstr "Pro"
+
+#: ../../cyberchimps/functions.php:803
+msgid "Complete Installation"
+msgstr "Komplett installasjon"
+
+#: ../../cyberchimps/functions.php:820
+#: ../../cyberchimps/options/options-init.php:134
+msgid "Instructions"
+msgstr "Instruksjoner"
+
+#: ../../cyberchimps/functions.php:826
+#: ../../cyberchimps/options/options-init.php:133
+msgid "Support"
+msgstr "Support"
+
+#: ../../cyberchimps/functions.php:835
+msgid "Upgrade to"
+msgstr "Oppgrader til"
+
+#: ../../cyberchimps/functions.php:841
+msgid "If you want even more amazing new features upgrade to"
+msgstr "Hvis du vil ha enda mer utrolige nye funksjoner oppgradere til"
+
+#: ../../cyberchimps/functions.php:841
+msgid ""
+"which includes a Custom Features Slider, Image Carousel, Widgetized Boxes, "
+"Callout Section, expanded typography including Google Fonts, more color "
+"skins, and many more powerful new features. Please visit"
+msgstr ""
+"som inkluderer en Custom funksjoner Slider, Image Carousel, widgetized "
+"Bokser, Bildeforklaring § utvidet typografi inkludert Google Fonts, flere "
+"farger skinn, og mange flere nye funksjoner. Vennligst besøk"
+
+#: ../../cyberchimps/functions.php:841
+msgid "to learn more!"
+msgstr "for å lære mer!"
+
+#: ../../cyberchimps/functions.php:858
+msgid "Welcome to %1$s! Learn more now about upgrading to"
+msgstr "Velkommen til %1$s ! Lær mer nå om oppgradering til"
+
+#: ../../cyberchimps/functions.php:858
+msgid "today."
+msgstr "i dag."
+
+#: ../../cyberchimps/functions.php:897
+#: ../../cyberchimps/options/options-init.php:128
+msgid "Options"
+msgstr "Options"
+
+#: ../../cyberchimps/functions.php:897
+msgid " Options"
+msgstr " Options"
+
+#: ../../cyberchimps/init.php:79
+msgid "Primary Menu"
+msgstr "Primære Meny"
+
+#: ../../cyberchimps/init.php:154
+msgid "Sidebar Left"
+msgstr "Sidebar Venstre"
+
+#: ../../cyberchimps/init.php:163
+msgid "Sidebar Right"
+msgstr "Sidebar Høyre"
+
+#: ../../cyberchimps/init.php:172
+#: ../../cyberchimps/options/options-core.php:2096
+msgid "Footer Widgets"
+msgstr "Footer Widgets"
+
+#: ../../cyberchimps/hooks/blog-hooks.php:23
+#: ../../cyberchimps/inc/meta-box.php:135
+#: ../../cyberchimps/options/options-core.php:911
+#: ../../cyberchimps/options/options-core.php:920
+msgid "Slider Lite"
+msgstr "Slider Lite"
+
+#: ../../cyberchimps/hooks/blog-hooks.php:24
+#: ../../cyberchimps/inc/meta-box.php:132
+#: ../../cyberchimps/options/options-core.php:912
+#: ../../cyberchimps/options/options-core.php:917 ../../elements/boxes.php:27
+#: ../../elements/boxes.php:28 ../../elements/init.php:58
+#: ../../elements/init.php:79 ../../elements/setup/features.php:177
+msgid "Boxes"
+msgstr "Bokser"
+
+#: ../../cyberchimps/hooks/blog-hooks.php:25
+#: ../../cyberchimps/options/options-core.php:913
+#: ../../cyberchimps/options/options-core.php:919 ../../elements/init.php:66
+#: ../../elements/setup/features.php:178
+msgid "Post Page"
+msgstr "Innlegg Side"
+
+#: ../../cyberchimps/hooks/header-hooks.php:21
+#: ../../cyberchimps/options/options-core.php:614
+#: ../../cyberchimps/options/options-core.php:618
+#: ../../elements/setup/features.php:142
+msgid "Logo + Icons"
+msgstr "Logo + Ikoner"
+
+#: ../../cyberchimps/inc/cc-custom-background.php:98
+msgid "Or choose one of CyberChimps background images"
+msgstr "Eller velge en av CyberChimps bakgrunnsbilder"
+
+#: ../../cyberchimps/inc/meta-box-class.php:376
+msgid "Uploaded files"
+msgstr "Opplastede filer"
+
+#: ../../cyberchimps/inc/meta-box-class.php:390
+msgid "Upload new files"
+msgstr "Laste opp nye filer"
+
+#: ../../cyberchimps/inc/meta-box-class.php:393
+msgid "Add more file"
+msgstr "Tilsett mer fil"
+
+#: ../../cyberchimps/inc/meta-box-class.php:418
+msgid "Uploaded images"
+msgstr "Opplastede bilder"
+
+#: ../../cyberchimps/inc/meta-box-class.php:432
+msgid "Upload new images (Make sure to publish the post to save)"
+msgstr "Last opp nye bilder (Sørg for å publisere innlegget å lagre)"
+
+#: ../../cyberchimps/inc/meta-box-class.php:444
+msgid "Select a color"
+msgstr "Velg en farge"
+
+#: ../../cyberchimps/inc/meta-box-class.php:603
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:112
+msgid "Upload"
+msgstr "Last opp"
+
+#: ../../cyberchimps/inc/meta-box-class.php:604
+msgid "or enter URL"
+msgstr "eller skriv inn URL"
+
+#: ../../cyberchimps/inc/meta-box.php:110
+msgid "Slider Options"
+msgstr "Slider Alternativer"
+
+#: ../../cyberchimps/inc/meta-box.php:113 ../../elements/slider.php:90
+msgid "Slider Image"
+msgstr "Slider Bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:114 ../../elements/slider.php:91
+msgid "Slider Caption"
+msgstr "Slider Bildetekst"
+
+#: ../../cyberchimps/inc/meta-box.php:115 ../../elements/slider.php:92
+msgid "Custom Slide Link"
+msgstr "Custom Slide Link"
+
+#: ../../cyberchimps/inc/meta-box.php:116
+#: ../../cyberchimps/inc/meta-box.php:203
+#: ../../cyberchimps/inc/meta-box.php:222
+#: ../../cyberchimps/inc/meta-box.php:224
+#: ../../cyberchimps/options/options-core.php:1257
+#: ../../cyberchimps/options/options-core.php:1387
+#: ../../cyberchimps/options/options-core.php:1721
+#: ../../elements/slider.php:93
+msgid "Title"
+msgstr "Tittel"
+
+#: ../../cyberchimps/inc/meta-box.php:117 ../../elements/portfolio.php:90
+#: ../../elements/slider.php:94
+msgid "Caption"
+msgstr "Bildetekst"
+
+#: ../../cyberchimps/inc/meta-box.php:118
+#: ../../cyberchimps/inc/meta-box.php:140
+#: ../../cyberchimps/inc/meta-box.php:168 ../../elements/slider.php:95
+msgid "Need Help?"
+msgstr "Trenger du hjelp?"
+
+#: ../../cyberchimps/inc/meta-box.php:124
+msgid "Select Page Layout"
+msgstr "Velg Sideoppsett"
+
+#: ../../cyberchimps/inc/meta-box.php:129
+msgid "Page Title"
+msgstr "Sidetittel"
+
+#: ../../cyberchimps/inc/meta-box.php:130
+msgid "Page Elements"
+msgstr "Sideelementer"
+
+#: ../../cyberchimps/inc/meta-box.php:134
+#: ../../cyberchimps/options/options-core.php:918
+msgid "Portfolio Lite"
+msgstr "Portefølje Lite"
+
+#: ../../cyberchimps/inc/meta-box.php:136
+#: ../../cyberchimps/options/options-core.php:921 ../../elements/init.php:69
+#: ../../elements/init.php:91
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../cyberchimps/inc/meta-box.php:142
+#: ../../cyberchimps/options/options-core.php:1399
+msgid "Meta Data"
+msgstr "Meta data"
+
+#: ../../cyberchimps/inc/meta-box.php:143
+#: ../../cyberchimps/options/options-core.php:1408
+msgid "Featured Image"
+msgstr "Utvalgte bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:144
+#: ../../cyberchimps/options/options-core.php:1426
+msgid "Number of Columns"
+msgstr "Antall kolonner"
+
+#: ../../cyberchimps/inc/meta-box.php:145
+msgid "Number of Posts"
+msgstr "Antall innlegg"
+
+#: ../../cyberchimps/inc/meta-box.php:146
+#: ../../cyberchimps/options/options-core.php:1455
+msgid "Wide Posts Below Magazine"
+msgstr "Brede innlegg Nedenfor Magazine"
+
+#: ../../cyberchimps/inc/meta-box.php:147
+msgid "Number of Wide Posts "
+msgstr "Antall Wide innlegg "
+
+#: ../../cyberchimps/inc/meta-box.php:153
+msgid "Slide One Image"
+msgstr "Skyv ett bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:154
+msgid "Slide One Link"
+msgstr "Skyv One Link"
+
+#: ../../cyberchimps/inc/meta-box.php:155
+msgid "Slide Two Image"
+msgstr "Slide To Bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:156
+msgid "Slide Two Link"
+msgstr "Skyv To Link"
+
+#: ../../cyberchimps/inc/meta-box.php:157
+msgid "Slide Three Image"
+msgstr "Skyv Tre Bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:158
+msgid "Slide Three Link"
+msgstr "Skyv Tre Link"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1491
+msgid "Slider Size"
+msgstr "Slider Størrelse"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1496
+msgid "Full"
+msgstr "Full"
+
+#: ../../cyberchimps/inc/meta-box.php:160
+#: ../../cyberchimps/options/options-core.php:1497
+msgid "Half"
+msgstr "Halvparten"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1504
+msgid "Slider Type"
+msgstr "Slider Type"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1510
+msgid "Custom"
+msgstr "Egendefinert"
+
+#: ../../cyberchimps/inc/meta-box.php:161
+#: ../../cyberchimps/options/options-core.php:1509
+#: ../../elements/carousel.php:54
+msgid "Posts"
+msgstr "Innlegg"
+
+#: ../../cyberchimps/inc/meta-box.php:162
+#: ../../cyberchimps/options/options-core.php:1517
+#: ../../cyberchimps/options/options-core.php:1740
+msgid "Post Categories"
+msgstr "Innlegg kategorier"
+
+#: ../../cyberchimps/inc/meta-box.php:162
+#: ../../cyberchimps/inc/meta-box.php:226
+msgid "All"
+msgstr "Alle"
+
+#: ../../cyberchimps/inc/meta-box.php:163
+#: ../../cyberchimps/options/options-core.php:1528
+#: ../../cyberchimps/options/options-core.php:1539
+msgid "Custom Categories"
+msgstr "Tilpassede kategorier"
+
+#: ../../cyberchimps/inc/meta-box.php:163
+#: ../../cyberchimps/inc/meta-box.php:201
+#: ../../cyberchimps/inc/meta-box.php:229
+#: ../../cyberchimps/inc/meta-box.php:233
+#: ../../cyberchimps/options/options-core.php:1372
+#: ../../cyberchimps/options/options-core.php:1542
+#: ../../cyberchimps/options/options-core.php:1776
+#: ../../cyberchimps/options/options-core.php:1799
+msgid "You need to create a Category"
+msgstr "Du må opprette en kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:164
+#: ../../cyberchimps/options/options-core.php:1439
+msgid "Number of Featured Posts"
+msgstr "Antall Anbefalte innlegg"
+
+#: ../../cyberchimps/inc/meta-box.php:165
+#: ../../cyberchimps/options/options-core.php:1558
+msgid "Slider Height"
+msgstr "Slider Høyde"
+
+#: ../../cyberchimps/inc/meta-box.php:166
+msgid "Slider Speed"
+msgstr "Slider Speed"
+
+#: ../../cyberchimps/inc/meta-box.php:167
+#: ../../cyberchimps/options/options-core.php:1577
+msgid "Slider Arrows"
+msgstr "Slider Arrows"
+
+#: ../../cyberchimps/inc/meta-box.php:180
+#: ../../cyberchimps/options/options-core.php:1588
+msgid "Callout Title"
+msgstr "Bildeforklaring Tittel"
+
+#: ../../cyberchimps/inc/meta-box.php:181
+#: ../../cyberchimps/options/options-core.php:1590
+msgid "%1$s's Call Out Element"
+msgstr "%1$s 's Call Out Element"
+
+#: ../../cyberchimps/inc/meta-box.php:183
+#: ../../cyberchimps/options/options-core.php:1597
+msgid "Callout Text"
+msgstr "Bildeforklaring Tekst"
+
+#: ../../cyberchimps/inc/meta-box.php:184
+#: ../../cyberchimps/options/options-core.php:1599
+msgid ""
+"Use %1$s's Call Out section on any page where you want to deliver an "
+"important message to your customer or client."
+msgstr ""
+"Bruk %1$s 's Call Out delen på en side hvor du ønsker å levere et viktig "
+"budskap til kunden eller klienten."
+
+#: ../../cyberchimps/inc/meta-box.php:186
+#: ../../cyberchimps/options/options-core.php:1606
+msgid "Callout Button"
+msgstr "Bildeforklaring Button"
+
+#: ../../cyberchimps/inc/meta-box.php:187
+#: ../../cyberchimps/options/options-core.php:1615
+msgid "Callout Button Text"
+msgstr "Bildeforklaring knappetekst"
+
+#: ../../cyberchimps/inc/meta-box.php:188
+#: ../../cyberchimps/options/options-core.php:1625
+msgid "Callout Button URL"
+msgstr "Bildeforklaring Button URL"
+
+#: ../../cyberchimps/inc/meta-box.php:189
+#: ../../cyberchimps/options/options-core.php:1635
+msgid "Custom Callout Options"
+msgstr "Custom Bildeforklaring Valg"
+
+#: ../../cyberchimps/inc/meta-box.php:190
+msgid "Custom Button Image"
+msgstr "Custom knappebilde"
+
+#: ../../cyberchimps/inc/meta-box.php:191
+msgid "Custom Background Color"
+msgstr "Custom Bakgrunnsfarge"
+
+#: ../../cyberchimps/inc/meta-box.php:192
+msgid "Custom Title Color"
+msgstr "Custom Title Color"
+
+#: ../../cyberchimps/inc/meta-box.php:193
+msgid "Custom Text Color"
+msgstr "Custom Tekstfarge"
+
+#: ../../cyberchimps/inc/meta-box.php:194
+msgid "Custom Button Color"
+msgstr "Egendefinert knapp Color"
+
+#: ../../cyberchimps/inc/meta-box.php:195
+msgid "Custom Button Text Color"
+msgstr "Egendefinert knapp Tekstfarge"
+
+#: ../../cyberchimps/inc/meta-box.php:196
+msgid "Need help?"
+msgstr "Trenger du hjelp?"
+
+#: ../../cyberchimps/inc/meta-box.php:198
+msgid "Custom HTML"
+msgstr "Custom HTML"
+
+#: ../../cyberchimps/inc/meta-box.php:198
+msgid "Enter your custom html here"
+msgstr "Skriv inn din egendefinerte html her"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Images per row"
+msgstr "Bilder per rad"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Two"
+msgstr "To"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Three"
+msgstr "Tre"
+
+#: ../../cyberchimps/inc/meta-box.php:200
+msgid "Four"
+msgstr "Fire"
+
+#: ../../cyberchimps/inc/meta-box.php:201
+#: ../../cyberchimps/options/options-core.php:1359
+#: ../../cyberchimps/options/options-core.php:1369
+#: ../../elements/portfolio.php:68 ../../elements/portfolio.php:74
+msgid "Portfolio Category"
+msgstr "Portefølje Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:202
+#: ../../cyberchimps/inc/meta-box.php:221
+#: ../../cyberchimps/options/options-core.php:1247
+#: ../../cyberchimps/options/options-core.php:1379
+msgid "Portfolio Title"
+msgstr "Portefølje Tittel"
+
+#: ../../cyberchimps/inc/meta-box.php:203
+#: ../../cyberchimps/inc/meta-box.php:222 ../../elements/init.php:65
+#: ../../elements/init.php:87 ../../elements/portfolio.php:50
+msgid "Portfolio"
+msgstr "Portefølje"
+
+#: ../../cyberchimps/inc/meta-box.php:205
+#: ../../cyberchimps/options/options-core.php:1073
+msgid "First Portfolio Image"
+msgstr "Første portefølje Bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:206
+#: ../../cyberchimps/options/options-core.php:1084
+msgid "First Portfolio Image Caption"
+msgstr "Første portefølje Image Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:206
+msgid "Image 1"
+msgstr "Bilde 1"
+
+#: ../../cyberchimps/inc/meta-box.php:207
+#: ../../cyberchimps/options/options-core.php:1094
+msgid "First Porfolio Link"
+msgstr "Første porfolio Link"
+
+#: ../../cyberchimps/inc/meta-box.php:208
+#: ../../cyberchimps/inc/meta-box.php:212
+#: ../../cyberchimps/inc/meta-box.php:216
+#: ../../cyberchimps/inc/meta-box.php:220
+#: ../../cyberchimps/options/options-core.php:1103
+#: ../../cyberchimps/options/options-core.php:1147
+#: ../../cyberchimps/options/options-core.php:1191
+#: ../../cyberchimps/options/options-core.php:1235
+msgid "Link URL"
+msgstr "Link URL"
+
+#: ../../cyberchimps/inc/meta-box.php:209
+#: ../../cyberchimps/options/options-core.php:1117
+msgid "Second Portfolio Image"
+msgstr "Second portefølje Bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:210
+#: ../../cyberchimps/options/options-core.php:1128
+msgid "Second Portfolio Image Caption"
+msgstr "Second portefølje Image Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:210
+msgid "Image 2"
+msgstr "Bilde 2"
+
+#: ../../cyberchimps/inc/meta-box.php:211
+#: ../../cyberchimps/options/options-core.php:1138
+msgid "Second Porfolio Link"
+msgstr "Second porfolio Link"
+
+#: ../../cyberchimps/inc/meta-box.php:213
+#: ../../cyberchimps/options/options-core.php:1161
+msgid "Third Portfolio Image"
+msgstr "Tredje portefølje Bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:214
+#: ../../cyberchimps/options/options-core.php:1172
+msgid "Third Portfolio Image Caption"
+msgstr "Tredje portefølje Image Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:214
+msgid "Image 3"
+msgstr "Bilde 3"
+
+#: ../../cyberchimps/inc/meta-box.php:215
+#: ../../cyberchimps/options/options-core.php:1182
+msgid "Third Porfolio Link"
+msgstr "Tredje porfolio Link"
+
+#: ../../cyberchimps/inc/meta-box.php:217
+#: ../../cyberchimps/options/options-core.php:1205
+msgid "Fourth Portfolio Image"
+msgstr "Fjerde portefølje Bilde"
+
+#: ../../cyberchimps/inc/meta-box.php:218
+#: ../../cyberchimps/options/options-core.php:1216
+msgid "Fourth Portfolio Image Caption"
+msgstr "Fjerde portefølje Image Caption"
+
+#: ../../cyberchimps/inc/meta-box.php:218
+msgid "Image 4"
+msgstr "Bilde 4"
+
+#: ../../cyberchimps/inc/meta-box.php:219
+#: ../../cyberchimps/options/options-core.php:1226
+msgid "Fourth Porfolio Link"
+msgstr "Fjerde porfolio Link"
+
+#: ../../cyberchimps/inc/meta-box.php:226
+msgid "Post Category"
+msgstr "Innlegg Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:227
+#: ../../cyberchimps/options/options-core.php:1750
+#: ../../elements/portfolio.php:51
+msgid "Images"
+msgstr "Bilder"
+
+#: ../../cyberchimps/inc/meta-box.php:229 ../../elements/carousel.php:71
+#: ../../elements/carousel.php:77
+msgid "Carousel Category"
+msgstr "Karusell Kategori"
+
+#: ../../cyberchimps/inc/meta-box.php:231
+#: ../../cyberchimps/options/options-core.php:1810
+msgid "Twitter Handle"
+msgstr "Twitter Håndtak"
+
+#: ../../cyberchimps/inc/meta-box.php:231
+msgid "Enter your Twitter handle if using the Twitter bar"
+msgstr "Skriv inn din Twitter håndtak hvis du bruker Twitter bar"
+
+#: ../../cyberchimps/inc/meta-box.php:233 ../../elements/boxes.php:46
+#: ../../elements/boxes.php:52
+msgid "Boxes Category"
+msgstr "Bokser Kategori"
+
+#: ../../cyberchimps/options/options-core.php:24
+msgid "Help"
+msgstr "Hjelp"
+
+#: ../../cyberchimps/options/options-core.php:29
+msgid "Design"
+msgstr "Design"
+
+#: ../../cyberchimps/options/options-core.php:34
+msgid "Header"
+msgstr "Header"
+
+#: ../../cyberchimps/options/options-core.php:39
+msgid "Blog"
+msgstr "Blogg"
+
+#: ../../cyberchimps/options/options-core.php:44
+msgid "Templates"
+msgstr "Maler"
+
+#: ../../cyberchimps/options/options-core.php:49
+msgid "Footer"
+msgstr "Fotnote"
+
+#: ../../cyberchimps/options/options-core.php:78
+msgid "Layout Options"
+msgstr "Oppsettalternativer"
+
+#: ../../cyberchimps/options/options-core.php:92
+msgid "Custom Colors"
+msgstr "Tilpassede farger"
+
+#: ../../cyberchimps/options/options-core.php:98
+msgid "Typography"
+msgstr "Typografi"
+
+#: ../../cyberchimps/options/options-core.php:112
+msgid "Header Drag &#38; Drop"
+msgstr "Header Drag & Drop"
+
+#: ../../cyberchimps/options/options-core.php:118
+msgid "Header Options"
+msgstr "Header Alternativer"
+
+#: ../../cyberchimps/options/options-core.php:124
+msgid "Social Icons"
+msgstr "Sosiale ikoner"
+
+#: ../../cyberchimps/options/options-core.php:132
+msgid "Drag & Drop"
+msgstr "Drag & Drop"
+
+#: ../../cyberchimps/options/options-core.php:138
+msgid "Blog Options"
+msgstr "Blogg Alternativer"
+
+#: ../../cyberchimps/options/options-core.php:146
+msgid "Blog Slider Lite"
+msgstr "Blogg Slider Lite"
+
+#: ../../cyberchimps/options/options-core.php:152
+msgid "Portfolio Lite Options"
+msgstr "Portefølje Lite alternativer"
+
+#: ../../cyberchimps/options/options-core.php:158
+msgid "Boxes Lite"
+msgstr "Bokser Lite"
+
+#: ../../cyberchimps/options/options-core.php:168
+msgid "Blog Slider"
+msgstr "Blogg Slider"
+
+#: ../../cyberchimps/options/options-core.php:174
+msgid "Callout Options"
+msgstr "Bildeforklaring Valg"
+
+#: ../../cyberchimps/options/options-core.php:180
+msgid "HTML Box Options"
+msgstr "HTML Box Alternativer"
+
+#: ../../cyberchimps/options/options-core.php:186
+msgid "Carousel Options"
+msgstr "Carousel alternativer"
+
+#: ../../cyberchimps/options/options-core.php:192
+msgid "Magazine Options"
+msgstr "Magazine alternativer"
+
+#: ../../cyberchimps/options/options-core.php:198
+msgid "Portfolio Pro Options"
+msgstr "Portefølje Pro alternativer"
+
+#: ../../cyberchimps/options/options-core.php:204
+msgid "Recent Posts Options"
+msgstr "Siste innlegg Alternativer"
+
+#: ../../cyberchimps/options/options-core.php:211
+msgid "Twitterbar Options"
+msgstr "Twitterbar alternativer"
+
+#: ../../cyberchimps/options/options-core.php:217
+msgid "Boxes Options"
+msgstr "Bokser Valg"
+
+#: ../../cyberchimps/options/options-core.php:231
+msgid "Single Post"
+msgstr "Enkelt innlegg"
+
+#: ../../cyberchimps/options/options-core.php:237
+msgid "Archive"
+msgstr "Arkiv"
+
+#: ../../cyberchimps/options/options-core.php:257
+msgid "Footer Options"
+msgstr "Footer alternativer"
+
+#: ../../cyberchimps/options/options-core.php:288
+msgid "Author"
+msgstr "Forfatter"
+
+#: ../../cyberchimps/options/options-core.php:290
+msgid "Date"
+msgstr "Dato"
+
+#: ../../cyberchimps/options/options-core.php:292
+msgid "Tags"
+msgstr "Balises"
+
+#: ../../cyberchimps/options/options-core.php:379
+msgid "Cyberchimps Help"
+msgstr "Cyberchimps Hjelp"
+
+#: ../../cyberchimps/options/options-core.php:387
+msgid "Welcome Note"
+msgstr "Velkomstmelding"
+
+#: ../../cyberchimps/options/options-core.php:398 ../../elements/boxes.php:158
+msgid "Responsive Design"
+msgstr "Responsive Design"
+
+#: ../../cyberchimps/options/options-core.php:407
+msgid "Responsive Videos"
+msgstr "Responsive videoer"
+
+#: ../../cyberchimps/options/options-core.php:415
+#: ../../cyberchimps/options/options-customizer.php:167
+msgid "Max Width"
+msgstr "Maks bredde"
+
+#: ../../cyberchimps/options/options-core.php:419
+msgid "enter the width of your site in pixels"
+msgstr "angi bredden av nettstedet ditt i piksler"
+
+#: ../../cyberchimps/options/options-core.php:510
+msgid "Select a Skin Color"
+msgstr "Velg en hudfarge"
+
+#: ../../cyberchimps/options/options-core.php:533
+#: ../../cyberchimps/options/options-customizer.php:194
+msgid "Text Color"
+msgstr "Tekstfarge"
+
+#: ../../cyberchimps/options/options-core.php:534
+msgid "Select text color"
+msgstr "Velg tekstfarge"
+
+#: ../../cyberchimps/options/options-core.php:542
+#: ../../cyberchimps/options/options-customizer.php:206
+msgid "Link Color"
+msgstr "Link Color"
+
+#: ../../cyberchimps/options/options-core.php:543
+msgid "Select link color"
+msgstr "Velg lenken farge"
+
+#: ../../cyberchimps/options/options-core.php:551
+#: ../../cyberchimps/options/options-customizer.php:218
+msgid "Link Hover Color"
+msgstr "Link Hover Color"
+
+#: ../../cyberchimps/options/options-core.php:552
+msgid "Select link hover color"
+msgstr "Velg lenken hover farge"
+
+#: ../../cyberchimps/options/options-core.php:570
+msgid "Typography Options"
+msgstr "Typografi alternativer"
+
+#: ../../cyberchimps/options/options-core.php:580
+msgid "Google fonts"
+msgstr "Google fonter"
+
+#: ../../cyberchimps/options/options-core.php:589
+msgid "Enter Google font"
+msgstr "Går inn i Google font"
+
+#: ../../cyberchimps/options/options-core.php:599
+msgid "Demo Text"
+msgstr "Demo Tekst"
+
+#: ../../cyberchimps/options/options-core.php:611
+msgid "Header Drag/Drop"
+msgstr "Header Drag / Drop"
+
+#: ../../cyberchimps/options/options-core.php:619
+#: ../../elements/setup/features.php:144
+msgid "Logo + Search"
+msgstr "Logo + Søk"
+
+#: ../../cyberchimps/options/options-core.php:620
+#: ../../elements/setup/features.php:145
+msgid "Logo"
+msgstr "Logo"
+
+#: ../../cyberchimps/options/options-core.php:629
+msgid "Custom Logo URL"
+msgstr "Egen logo URL"
+
+#: ../../cyberchimps/options/options-core.php:637
+#: ../../elements/portfolio.php:93
+msgid "URL"
+msgstr "URL"
+
+#: ../../cyberchimps/options/options-core.php:638
+msgid "Enter URL"
+msgstr "Angi URL"
+
+#: ../../cyberchimps/options/options-core.php:648
+msgid "Custom Logo"
+msgstr "Egen logo"
+
+#: ../../cyberchimps/options/options-core.php:656
+msgid "Logo Image"
+msgstr "Logo image"
+
+#: ../../cyberchimps/options/options-core.php:657
+#: ../../cyberchimps/options/options-core.php:676
+#: ../../cyberchimps/options/options-core.php:694
+#: ../../cyberchimps/options/options-core.php:1074
+#: ../../cyberchimps/options/options-core.php:1118
+#: ../../cyberchimps/options/options-core.php:1162
+#: ../../cyberchimps/options/options-core.php:1206
+#: ../../cyberchimps/options/options-core.php:1282
+#: ../../cyberchimps/options/options-core.php:1301
+#: ../../cyberchimps/options/options-core.php:1320
+#: ../../elements/setup/features.php:79
+msgid "Enter URL or upload file"
+msgstr "Inn URL eller laste opp filen"
+
+#: ../../cyberchimps/options/options-core.php:667
+msgid "Custom Favicon"
+msgstr "Custom Favicon"
+
+#: ../../cyberchimps/options/options-core.php:675
+msgid "Favicon URL"
+msgstr "Favicon URL"
+
+#: ../../cyberchimps/options/options-core.php:685
+msgid "Custom Apple touch icon"
+msgstr "Custom Apple touch ikonet"
+
+#: ../../cyberchimps/options/options-core.php:693
+msgid "Apple Touch URL"
+msgstr "Apple Touch URL"
+
+#: ../../cyberchimps/options/options-core.php:704
+msgid "Searchbar"
+msgstr "Searchbar"
+
+#: ../../cyberchimps/options/options-core.php:716
+msgid "Choose your icon style"
+msgstr "Velg ikonet ditt stil"
+
+#: ../../cyberchimps/options/options-core.php:729
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../cyberchimps/options/options-core.php:737
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: ../../cyberchimps/options/options-core.php:747
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../cyberchimps/options/options-core.php:755
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: ../../cyberchimps/options/options-core.php:765
+msgid "Google+"
+msgstr "Google+"
+
+#: ../../cyberchimps/options/options-core.php:773
+msgid "Google+ URL"
+msgstr "Google+ URL"
+
+#: ../../cyberchimps/options/options-core.php:783
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../../cyberchimps/options/options-core.php:790
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: ../../cyberchimps/options/options-core.php:800
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../../cyberchimps/options/options-core.php:807
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: ../../cyberchimps/options/options-core.php:817
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../../cyberchimps/options/options-core.php:824
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: ../../cyberchimps/options/options-core.php:834
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../../cyberchimps/options/options-core.php:841
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: ../../cyberchimps/options/options-core.php:851
+msgid "RSS"
+msgstr "RSS"
+
+#: ../../cyberchimps/options/options-core.php:858
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../../cyberchimps/options/options-core.php:875
+msgid "Email Address"
+msgstr "E-post adresse"
+
+#: ../../cyberchimps/options/options-core.php:884
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: ../../cyberchimps/options/options-core.php:891
+msgid "Google Maps URL"
+msgstr "Google Maps URL"
+
+#: ../../cyberchimps/options/options-core.php:908
+msgid "Drag & Drop Blog Elements"
+msgstr "Drag & Drop Log Elements"
+
+#: ../../cyberchimps/options/options-core.php:929
+#: ../../cyberchimps/options/options-core.php:1834
+#: ../../cyberchimps/options/options-core.php:1928
+#: ../../cyberchimps/options/options-core.php:2020
+#: ../../cyberchimps/options/options-core.php:2063
+msgid "Sidebar Options"
+msgstr "Sidebar alternativer"
+
+#: ../../cyberchimps/options/options-core.php:942
+msgid "Post Formats Icons"
+msgstr "Innlegg formater Ikoner"
+
+#: ../../cyberchimps/options/options-core.php:950
+#: ../../cyberchimps/options/options-core.php:1950
+#: ../../cyberchimps/options/options-core.php:2034
+msgid "Post Excerpts"
+msgstr "Innlegg Utdrag"
+
+#: ../../cyberchimps/options/options-core.php:958
+#: ../../cyberchimps/options/options-core.php:2042
+msgid "Read More Text"
+msgstr "Les mer Tekst"
+
+#: ../../cyberchimps/options/options-core.php:967
+#: ../../cyberchimps/options/options-core.php:2052
+msgid "Excerpt Length"
+msgstr "Utdrag Lengde"
+
+#: ../../cyberchimps/options/options-core.php:976
+#: ../../cyberchimps/options/options-core.php:1858
+#: ../../cyberchimps/options/options-core.php:1959
+msgid "Featured Images"
+msgstr "Utvalgte bilder"
+
+#: ../../cyberchimps/options/options-core.php:987
+#: ../../cyberchimps/options/options-core.php:1876
+#: ../../cyberchimps/options/options-core.php:1969
+msgid "Post Byline Author"
+msgstr "Innlegg Byline Forfatter"
+
+#: ../../cyberchimps/options/options-core.php:997
+#: ../../cyberchimps/options/options-core.php:1886
+#: ../../cyberchimps/options/options-core.php:1979
+msgid "Post Byline Categories"
+msgstr "Innlegg Byline Kategorier"
+
+#: ../../cyberchimps/options/options-core.php:1007
+#: ../../cyberchimps/options/options-core.php:1896
+#: ../../cyberchimps/options/options-core.php:1989
+msgid "Post Byline Date"
+msgstr "Innlegg Byline Dato"
+
+#: ../../cyberchimps/options/options-core.php:1017
+#: ../../cyberchimps/options/options-core.php:1906
+#: ../../cyberchimps/options/options-core.php:1999
+msgid "Post Byline Comments"
+msgstr "Innlegg Byline Kommentarer"
+
+#: ../../cyberchimps/options/options-core.php:1027
+#: ../../cyberchimps/options/options-core.php:1917
+#: ../../cyberchimps/options/options-core.php:2009
+msgid "Post Byline Tags"
+msgstr "Innlegg Byline Tags"
+
+#: ../../cyberchimps/options/options-core.php:1042
+msgid "Boxes Upgrade"
+msgstr "Bokser Upgrade"
+
+#: ../../cyberchimps/options/options-core.php:1045
+msgid ""
+"Boxes Lite limits you to a total of 3 boxes throughout your whole site. "
+"Upgrade to %1$s to be able to create as many boxes as you like. Categorize "
+"them and display each category on a different page."
+msgstr ""
+"Bokser Lite begrenser deg til totalt 3 bokser gjennom hele området. "
+"Oppgrader til %1$s for å kunne lage så mange bokser som du vil. Kategorisere "
+"dem og vise hver kategori på en annen side."
+
+#: ../../cyberchimps/options/options-core.php:1058
+msgid "Portfolio Upgrade"
+msgstr "Portefølje Upgrade"
+
+#: ../../cyberchimps/options/options-core.php:1061
+msgid ""
+"Portfolio Lite limits you to a total of 4 items throughout your whole site. "
+"Upgrade to %1$s to be able to create as many portfolio items as you like. "
+"Categorize them and display each category on a different page."
+msgstr ""
+"Portefølje Lite begrenser deg til en total 4 artikler gjennom hele området. "
+"Oppgrader til %1$s for å kunne lage så mange portefølje elementer som du "
+"vil. Kategorisere dem og vise hver kategori på en annen side."
+
+#: ../../cyberchimps/options/options-core.php:1269
+msgid "Slider Upgrade"
+msgstr "Slider Upgrade"
+
+#: ../../cyberchimps/options/options-core.php:1272
+msgid ""
+"Slider Lite limits you to a total of 3 images throughout your whole site. "
+"Upgrade to %1$s to be able to create more images. Categorize them and "
+"display each category on a different page."
+msgstr ""
+"Slider Lite begrenser deg til totalt 3 bilder gjennom hele området. "
+"Oppgrader til %1$s for å kunne opprette flere bilder. Kategorisere dem og "
+"vise hver kategori på en annen side."
+
+#: ../../cyberchimps/options/options-core.php:1281
+msgid "Slider Image 1"
+msgstr "Slider Bilde 1"
+
+#: ../../cyberchimps/options/options-core.php:1291
+msgid "Slide 1 URL"
+msgstr "Skyv en URL"
+
+#: ../../cyberchimps/options/options-core.php:1300
+msgid "Slider Image 2"
+msgstr "Slider Bilde 2"
+
+#: ../../cyberchimps/options/options-core.php:1310
+msgid "Slide 2 URL"
+msgstr "Skyv to URL"
+
+#: ../../cyberchimps/options/options-core.php:1319
+msgid "Slider Image 3"
+msgstr "Slider Bilde 3"
+
+#: ../../cyberchimps/options/options-core.php:1329
+msgid "Slide 3 URL"
+msgstr "Skyv 3 URL"
+
+#: ../../cyberchimps/options/options-core.php:1345
+msgid "Images per Row"
+msgstr "Bilder per rad"
+
+#: ../../cyberchimps/options/options-core.php:1417
+msgid "Featured Excerpt Length"
+msgstr "Utvalgte Utdrag Lengde"
+
+#: ../../cyberchimps/options/options-core.php:1464
+msgid "Wide Post Excerpt Length"
+msgstr "Wide Post Utdrag Lengde"
+
+#: ../../cyberchimps/options/options-core.php:1473
+msgid "Number of Wide Posts"
+msgstr "Antall Wide innlegg"
+
+#: ../../cyberchimps/options/options-core.php:1549
+msgid "Number of Featured Blog Posts"
+msgstr "Antall Utvalgte blogginnlegg"
+
+#: ../../cyberchimps/options/options-core.php:1568
+msgid "Slider Speed "
+msgstr "Slider Speed "
+
+#: ../../cyberchimps/options/options-core.php:1618
+msgid "Click Here"
+msgstr "Klikk her!"
+
+#: ../../cyberchimps/options/options-core.php:1644
+msgid "Custom Callout Button"
+msgstr "Custom Bildeforklaring Button"
+
+#: ../../cyberchimps/options/options-core.php:1654
+msgid "Custom Callout Background Color"
+msgstr "Custom Bildeforklaring Bakgrunnsfarge"
+
+#: ../../cyberchimps/options/options-core.php:1664
+msgid "Custom Callout Title Color"
+msgstr "Custom Bildeforklaring Tittel Color"
+
+#: ../../cyberchimps/options/options-core.php:1674
+msgid "Custom Callout Text Color"
+msgstr "Custom Bildeforklaring Tekstfarge"
+
+#: ../../cyberchimps/options/options-core.php:1684
+msgid "Custom Callout Button Color"
+msgstr "Custom Bildeforklaring Button Color"
+
+#: ../../cyberchimps/options/options-core.php:1694
+msgid "Custom Callout Button Text Color"
+msgstr "Custom Bildeforklaring Button Tekstfarge"
+
+#: ../../cyberchimps/options/options-core.php:1707 ../../elements/init.php:62
+#: ../../elements/init.php:84
+msgid "HTML Box"
+msgstr "HTML Box"
+
+#: ../../cyberchimps/options/options-core.php:1710
+msgid "Enter your custom HTML code here"
+msgstr "Skriv inn din egendefinerte HTML-kode her"
+
+#: ../../cyberchimps/options/options-core.php:1730
+msgid "Custom Title"
+msgstr "Egendefinert Tittel"
+
+#: ../../cyberchimps/options/options-core.php:1763
+#: ../../cyberchimps/options/options-core.php:1773
+#: ../../cyberchimps/options/options-core.php:1786
+#: ../../cyberchimps/options/options-core.php:1796
+msgid "Select a Category"
+msgstr "Velg en kategori"
+
+#: ../../cyberchimps/options/options-core.php:1835
+#: ../../cyberchimps/options/options-core.php:1929
+#: ../../cyberchimps/options/options-core.php:2021
+#: ../../cyberchimps/options/options-core.php:2064
+msgid "Images for layout."
+msgstr "Til layout."
+
+#: ../../cyberchimps/options/options-core.php:1849
+msgid "Post title"
+msgstr "Innlegg tittel"
+
+#: ../../cyberchimps/options/options-core.php:1866
+#: ../../cyberchimps/options/options-core.php:1942
+msgid "Post Format Icons"
+msgstr "Innlegg Format Ikoner"
+
+#: ../../cyberchimps/options/options-core.php:2077
+msgid "Custom 404 Title"
+msgstr "Tilpasset 404 Tittel"
+
+#: ../../cyberchimps/options/options-core.php:2085
+msgid "Custom 404 Content"
+msgstr "Tilpasset 404 Content"
+
+#: ../../cyberchimps/options/options-core.php:2106
+msgid "Footer Copyright Text"
+msgstr "Bunntekst Copyright Tekst"
+
+#: ../../cyberchimps/options/options-core.php:2115
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: ../../cyberchimps/options/options-core.php:2117
+msgid "Copy and paste your Google Analytics code here"
+msgstr "Kopier og lim inn Google Analytics-koden her"
+
+#: ../../cyberchimps/options/options-customizer.php:22
+msgid "Customize"
+msgstr "Tilpass"
+
+#: ../../cyberchimps/options/options-customizer.php:80
+msgid ""
+"make sure you have removed the image above before selecting one of these"
+msgstr "sørg for at du har fjernet bildet ovenfor før du velger en av disse"
+
+#: ../../cyberchimps/options/options-customizer.php:180
+msgid "Skin Color"
+msgstr "Hudfarge"
+
+#: ../../cyberchimps/options/options-customizer.php:236
+msgid "Typography Size"
+msgstr "Typografi størrelse"
+
+#: ../../cyberchimps/options/options-customizer.php:250
+msgid "Typography Face"
+msgstr "Typografi Face"
+
+#: ../../cyberchimps/options/options-customizer.php:263
+msgid "Typography Style"
+msgstr "Typografi stil"
+
+#: ../../cyberchimps/options/options-customizer.php:277
+msgid "Background Image"
+msgstr "Bakgrunnsbilde"
+
+#: ../../cyberchimps/options/options-init.php:34
+msgid "Theme Options Page"
+msgstr "Temaalternativer Page"
+
+#: ../../cyberchimps/options/options-init.php:35
+#: ../../cyberchimps/options/options-init.php:1075
+msgid "Theme Options"
+msgstr "Temaalternativer"
+
+#: ../../cyberchimps/options/options-init.php:135
+msgid "Buy Themes"
+msgstr "Kjøp Temaer"
+
+#: ../../cyberchimps/options/options-init.php:167
+msgid "Open All"
+msgstr "Åpne alle"
+
+#: ../../cyberchimps/options/options-init.php:168
+msgid "Collapse All"
+msgstr "Minimer alle"
+
+#: ../../cyberchimps/options/options-init.php:175
+#: ../../cyberchimps/options/options-init.php:283
+msgid "Restore Defaults"
+msgstr "Gjenopprett standarder"
+
+#: ../../cyberchimps/options/options-init.php:175
+#: ../../cyberchimps/options/options-init.php:283
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Klikk OK for å nullstille. Eventuelle tema innstillinger vil gå tapt!"
+
+#: ../../cyberchimps/options/options-init.php:176
+#: ../../cyberchimps/options/options-init.php:237
+#: ../../cyberchimps/options/options-init.php:284
+msgid "Save Options"
+msgstr "Lagre alternativer"
+
+#: ../../cyberchimps/options/options-init.php:269
+msgid "CyberChimps Wordpress Themes"
+msgstr "CyberChimps Wordpress Themes"
+
+#: ../../cyberchimps/options/options-init.php:393
+msgid "Link to Events plugin settings"
+msgstr "Lenke til hendelser plugin innstillinger"
+
+#: ../../cyberchimps/options/options-init.php:395
+msgid "Insert custom events info and insert install link"
+msgstr "Sett egendefinerte hendelser info og sett installasjonskoblingen"
+
+#: ../../cyberchimps/options/options-init.php:518
+msgid "Default Field"
+msgstr "Standard Felt"
+
+#: ../../cyberchimps/options/options-init.php:946
+msgid "Options Imported"
+msgstr "Valg Importerte"
+
+#: ../../cyberchimps/options/options-init.php:949
+msgid "Invalid Data for Import"
+msgstr "Ugyldige data for import"
+
+#: ../../cyberchimps/options/options-init.php:962
+msgid "Default options restored."
+msgstr "Standardalternativer gjenopprettet."
+
+#: ../../cyberchimps/options/options-init.php:1029
+msgid "Options saved."
+msgstr "Alternativer lagret."
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:23
+msgid "Theme Options Media"
+msgstr "Temaalternativer Media"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:135
+msgid "View File"
+msgstr "Vis fil"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:256
+msgid "Gallery"
+msgstr "Galleri"
+
+#: ../../cyberchimps/options/options-medialibrary-uploader.php:256
+msgid "Previously Uploaded"
+msgstr "Tidligere Opplastet"
+
+#: ../../cyberchimps/options/options-sanitize.php:278
+msgid "No Repeat"
+msgstr "Ikke gjenta"
+
+#: ../../cyberchimps/options/options-sanitize.php:279
+msgid "Repeat Horizontally"
+msgstr "Gjenta horisontalt"
+
+#: ../../cyberchimps/options/options-sanitize.php:280
+msgid "Repeat Vertically"
+msgstr "Gjenta vertikalt"
+
+#: ../../cyberchimps/options/options-sanitize.php:281
+msgid "Repeat All"
+msgstr "Gjenta alle"
+
+#: ../../cyberchimps/options/options-sanitize.php:294
+msgid "Top Left"
+msgstr "Øverst til venstre"
+
+#: ../../cyberchimps/options/options-sanitize.php:295
+msgid "Top Center"
+msgstr "Top center"
+
+#: ../../cyberchimps/options/options-sanitize.php:296
+msgid "Top Right"
+msgstr "Øverst til høyre"
+
+#: ../../cyberchimps/options/options-sanitize.php:297
+msgid "Middle Left"
+msgstr "Middle Venstre"
+
+#: ../../cyberchimps/options/options-sanitize.php:298
+msgid "Middle Center"
+msgstr "Midten"
+
+#: ../../cyberchimps/options/options-sanitize.php:299
+msgid "Middle Right"
+msgstr "Midt Høyre"
+
+#: ../../cyberchimps/options/options-sanitize.php:300
+msgid "Bottom Left"
+msgstr "Nederst til venstre"
+
+#: ../../cyberchimps/options/options-sanitize.php:301
+msgid "Bottom Center"
+msgstr "Bottom center"
+
+#: ../../cyberchimps/options/options-sanitize.php:302
+msgid "Bottom Right"
+msgstr "Nederst til høyre"
+
+#: ../../cyberchimps/options/options-sanitize.php:315
+msgid "Scroll Normally"
+msgstr "Rull Normalt"
+
+#: ../../cyberchimps/options/options-sanitize.php:316
+msgid "Fixed in Place"
+msgstr "Festes"
+
+#: ../../cyberchimps/options/options-sanitize.php:388
+msgid "Normal"
+msgstr "Normal"
+
+#: ../../cyberchimps/options/options-sanitize.php:389
+msgid "Italic"
+msgstr "Kursiv"
+
+#: ../../cyberchimps/options/options-sanitize.php:390
+msgid "Bold"
+msgstr "fet"
+
+#: ../../cyberchimps/options/options-sanitize.php:391
+msgid "Bold Italic"
+msgstr "Fet Kursiv"
+
+#: ../../elements/boxes.php:42
+msgctxt "taxonomy general name"
+msgid "Boxes Categories"
+msgstr "Bokser Kategorier"
+
+#: ../../elements/boxes.php:43
+msgctxt "taxonomy singular name"
+msgid "Boxes Catergory"
+msgstr "Bokser catergory"
+
+#: ../../elements/boxes.php:44
+msgid "Search Boxes"
+msgstr "Søkeboksene"
+
+#: ../../elements/boxes.php:45
+msgid "All Boxes"
+msgstr "Alle Bokser"
+
+#: ../../elements/boxes.php:47
+msgid "Boxes Category:"
+msgstr "Bokser Kategori:"
+
+#: ../../elements/boxes.php:48
+msgid "Edit Boxes Category"
+msgstr "Redigeringsboksene Kategori"
+
+#: ../../elements/boxes.php:49
+msgid "Update Boxes Category"
+msgstr "Update Bokser Kategori"
+
+#: ../../elements/boxes.php:50
+msgid "Add New Boxes Category"
+msgstr "Legg til ny Bokser Kategori"
+
+#: ../../elements/boxes.php:51
+msgid "New Boxes Category Name"
+msgstr "Nye bokser Kategorinavn"
+
+#: ../../elements/boxes.php:66 ../../elements/boxes.php:68
+msgid "Boxes Element"
+msgstr "Bokser Element"
+
+#: ../../elements/boxes.php:69
+msgid "Box Image"
+msgstr "Box Bilde"
+
+#: ../../elements/boxes.php:70
+msgid "Box URL"
+msgstr "Box URL"
+
+#: ../../elements/boxes.php:71
+msgid "Box Text"
+msgstr "Box Tekst"
+
+#: ../../elements/boxes.php:150
+msgid "iFeature Pro 5 Slider"
+msgstr "iFeature Pro 5 Slider"
+
+#: ../../elements/boxes.php:151
+msgid ""
+"The New Touch Friendly iFeature Pro Slider now responds to any mobile touch "
+"device."
+msgstr ""
+"The New Touch Friendly iFeature Pro Slider reagerer nå til enhver mobil "
+"touch-enheten."
+
+#: ../../elements/boxes.php:159
+msgid ""
+"With iFeature Pro 5 and touch friendly responsive design you can now control "
+"your website on any device."
+msgstr ""
+"Med iFeature Pro 5 og trykk vennlig responsive design kan du nå kontrollere "
+"ditt nettsted på enhver enhet."
+
+#: ../../elements/boxes.php:166
+msgid "Excellent Support"
+msgstr "Utmerket støtte"
+
+#: ../../elements/boxes.php:167
+msgid ""
+"Need help? Read the instructions and please visit our dedicated Pro Support "
+"Forum."
+msgstr ""
+"Trenger du hjelp? Les instruksjonene og besøk vår dedikerte Pro Support "
+"Forum."
+
+#: ../../elements/breadcrumbs.php:89
+msgid "Home"
+msgstr "Hjem"
+
+#: ../../elements/breadcrumbs.php:98
+msgid "Archive for category "
+msgstr "Arkiv for kategorien "
+
+#: ../../elements/breadcrumbs.php:151
+msgid "Search results for "
+msgstr "Søkeresultater for "
+
+#: ../../elements/breadcrumbs.php:154
+msgid "Posts tagged "
+msgstr "Innlegg merket "
+
+#: ../../elements/breadcrumbs.php:159
+msgid "Articles posted by "
+msgstr "Artikler lagt ut av "
+
+#: ../../elements/breadcrumbs.php:162
+msgid "Error 404"
+msgstr "Feil 404"
+
+#: ../../elements/carousel.php:53 ../../elements/init.php:60
+#: ../../elements/init.php:82
+msgid "Carousel"
+msgstr "Karusell"
+
+#: ../../elements/carousel.php:67
+msgctxt "taxonomy general name"
+msgid "Carousel Categories"
+msgstr "Carousel Kategorier"
+
+#: ../../elements/carousel.php:68
+msgctxt "taxonomy singular name"
+msgid "Carousel Catergory"
+msgstr "Karusell catergory"
+
+#: ../../elements/carousel.php:69
+msgid "Search Carousel"
+msgstr "Søk Carousel"
+
+#: ../../elements/carousel.php:70
+msgid "All Carousels"
+msgstr "Alle Karuseller"
+
+#: ../../elements/carousel.php:72
+msgid "Carousel Category:"
+msgstr "Karusellkategori"
+
+#: ../../elements/carousel.php:73
+msgid "Edit Carousel Category"
+msgstr "Rediger karusellkategori"
+
+#: ../../elements/carousel.php:74
+msgid "Update Carousel Category"
+msgstr "Oppdater karusellkategori"
+
+#: ../../elements/carousel.php:75
+msgid "Add New Carousel Category"
+msgstr "Legg til ny karusellkategori"
+
+#: ../../elements/carousel.php:76
+msgid "New Carousel Category Name"
+msgstr "Gi nytt navn til karusellkategori"
+
+#: ../../elements/carousel.php:92
+msgid "Featured Post Carousel Options"
+msgstr "Fremhevet side karusellkategori"
+
+#: ../../elements/carousel.php:93
+msgid "Featured Post Image"
+msgstr "Fremhevet sidebilde"
+
+#: ../../elements/carousel.php:94
+msgid "Featured Post URL"
+msgstr "Populært innlegg URL"
+
+#: ../../elements/carousel.php:95 ../../elements/slider.php:96
+msgid "Reorder Name"
+msgstr "Omorganisere Navn"
+
+#: ../../elements/init.php:59 ../../elements/init.php:81
+msgid "Callout Section"
+msgstr "Bildeforklaring Seksjon"
+
+#: ../../elements/init.php:63 ../../elements/init.php:85
+#: ../../elements/setup/features.php:176
+msgid "iFeature Slider"
+msgstr "iFeature Slider"
+
+#: ../../elements/init.php:64 ../../elements/init.php:86
+msgid "Magazine"
+msgstr "Magasin"
+
+#: ../../elements/init.php:68 ../../elements/init.php:90
+msgid "Recent Posts"
+msgstr "Nylige innlegg"
+
+#: ../../elements/init.php:70 ../../elements/init.php:92
+msgid "Widgets"
+msgstr "Widgeter"
+
+#: ../../elements/init.php:80 ../../elements/setup/features.php:94
+#: ../../elements/setup/features.php:101
+msgid "Breadcrumbs"
+msgstr "Brødsmuler"
+
+#: ../../elements/portfolio.php:64
+msgctxt "taxonomy general name"
+msgid "Portfolio Categories"
+msgstr "Porteføljekategorier"
+
+#: ../../elements/portfolio.php:65
+msgctxt "taxonomy singular name"
+msgid "Portfolio Catergory"
+msgstr "Porteføljekategori"
+
+#: ../../elements/portfolio.php:66
+msgid "Search Portfolio"
+msgstr "Søk i porteføljen"
+
+#: ../../elements/portfolio.php:67
+msgid "All Portfolios"
+msgstr "Alle porteføljer"
+
+#: ../../elements/portfolio.php:69
+msgid "Portfolio Category:"
+msgstr "Porteføljekategori"
+
+#: ../../elements/portfolio.php:70
+msgid "Edit Portfolio Category"
+msgstr "Rediger porteføljekategori"
+
+#: ../../elements/portfolio.php:71
+msgid "Update Portfolio Category"
+msgstr "Oppdater porteføljekategori"
+
+#: ../../elements/portfolio.php:72
+msgid "Add New Portfolio Category"
+msgstr "Legg til ny porteføljekategori"
+
+#: ../../elements/portfolio.php:73
+msgid "New Portfolio Category Name"
+msgstr "Gi nytt navn til porteføljekategori"
+
+#: ../../elements/portfolio.php:88
+msgid "Portfolio Element"
+msgstr "Porteføljeelement"
+
+#: ../../elements/portfolio.php:89
+msgid "Portfolio Image"
+msgstr "Porteføljebilde"
+
+#: ../../elements/portfolio.php:91
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: ../../elements/portfolio.php:92
+msgid "Custom Portfolio URL"
+msgstr "Egendefinert portefølje-URL"
+
+#: ../../elements/slider.php:51 ../../elements/slider.php:52
+msgid "Slides"
+msgstr "Lysbilder"
+
+#: ../../elements/slider.php:65
+msgctxt "taxonomy general name"
+msgid "Slide Categories"
+msgstr "Lysbildekategorier"
+
+#: ../../elements/slider.php:66
+msgctxt "taxonomy singular name"
+msgid "Slide Catergory"
+msgstr "Slide catergory"
+
+#: ../../elements/slider.php:67
+msgid "Search Slides"
+msgstr "Søk i lysbilder"
+
+#: ../../elements/slider.php:68
+msgid "All Slides"
+msgstr "Alle lysbilder"
+
+#: ../../elements/slider.php:69 ../../elements/slider.php:75
+msgid "Slide Category"
+msgstr "Lysbildekategori"
+
+#: ../../elements/slider.php:70
+msgid "Slide Category:"
+msgstr "Lysbildekategori"
+
+#: ../../elements/slider.php:71
+msgid "Edit Slide Category"
+msgstr "Rediger lysbildekategori"
+
+#: ../../elements/slider.php:72
+msgid "Update Slide Category"
+msgstr "Oppdater lysbildekategori"
+
+#: ../../elements/slider.php:73
+msgid "Add New Slide Category"
+msgstr "Legg til ny lysbildekategori"
+
+#: ../../elements/slider.php:74
+msgid "New Slide Category Name"
+msgstr "Gi nytt navn til lysbildekategori"
+
+#: ../../elements/slider.php:87
+msgid "Custom Feature Slides"
+msgstr "Egendefinerte fremhevede lysbilder"
+
+#: ../../elements/slider.php:89
+msgid "Custom Slide Options"
+msgstr "Egendefinert lysbildealternativer"
+
+#: ../../elements/twitter-bar.php:83
+msgid "No tweets to display"
+msgstr "Ingen tweets å vise"
+
+#: ../../elements/twitter-bar.php:160
+msgid "Invalid Response"
+msgstr "Ugyldig Response"
+
+#: ../../elements/widgets.php:45 ../../elements/widgets.php:80
+msgid "Box Left"
+msgstr "Box Venstre"
+
+#: ../../elements/widgets.php:47
+msgid "This is the left widget of the three-box section"
+msgstr "Dette er den venstre widget av de tre-bokskonstruksjon"
+
+#: ../../elements/widgets.php:54 ../../elements/widgets.php:86
+msgid "Box Middle"
+msgstr "Boks Midtstilt"
+
+#: ../../elements/widgets.php:56
+msgid "This is the middle widget of the three-box section"
+msgstr "Dette er midt widget av de tre-bokskonstruksjon"
+
+#: ../../elements/widgets.php:63 ../../elements/widgets.php:92
+msgid "Box Right"
+msgstr "Boks Høyre"
+
+#: ../../elements/widgets.php:65
+msgid "This is the right widget of the three-box section"
+msgstr "Dette er den rette widget av de tre-bokskonstruksjon"
+
+#: ../../elements/widgets.php:81
+msgid "This is the box left widgetized area."
+msgstr "Dette er esken igjen Widgetized område."
+
+#: ../../elements/widgets.php:87
+msgid "This is the box middle widgetized area."
+msgstr "Dette er boksen midterste Widgetized område."
+
+#: ../../elements/widgets.php:93
+msgid "This is the box right widgetized area."
+msgstr "Dette er boksen rett widgetized område."
+
+#: ../../elements/setup/features.php:22
+msgid "Import/Export"
+msgstr "Importer/Eksporter"
+
+#: ../../elements/setup/features.php:34 ../../elements/setup/features.php:62
+msgid "Custom CSS"
+msgstr "Egen CSS"
+
+#: ../../elements/setup/features.php:39
+msgid "Contact Element"
+msgstr "Kontaktelement"
+
+#: ../../elements/setup/features.php:44
+msgid "Banner Options"
+msgstr "Fanealternativer"
+
+#: ../../elements/setup/features.php:49
+msgid "Import / Export"
+msgstr "Importer / Eksporter"
+
+#: ../../elements/setup/features.php:70
+msgid "Details"
+msgstr "Detaljer"
+
+#: ../../elements/setup/features.php:78
+msgid "Banner Image"
+msgstr "Fanebilde"
+
+#: ../../elements/setup/features.php:86
+msgid "Banner URL"
+msgstr "Fane URL"
+
+#: ../../elements/setup/features.php:108
+msgid "Cyberchimps Link"
+msgstr "Cyberchimpsbokmerke"
+
+#: ../../elements/setup/features.php:116
+msgid "Export Settings"
+msgstr "Eksportinnstillinger"
+
+#: ../../elements/setup/features.php:123
+msgid "Import Settings"
+msgstr "Importinnstillinger"
+
+#: ../../elements/setup/features.php:138
+msgid "Banner"
+msgstr "Fane"
+
+#: ../../elements/setup/features.php:139
+msgid "Description + Icons"
+msgstr "Beskrivelse + Ikoner"
+
+#: ../../elements/setup/features.php:140
+msgid "Logo + Contact"
+msgstr "Logo + Kontakt"
+
+#: ../../elements/setup/features.php:141
+msgid "Logo + Description"
+msgstr "Logo + Beskrivelse"
+
+#: ../../elements/setup/features.php:143
+msgid "Logo + Login"
+msgstr "Logo + Login"
