@@ -1,0 +1,51 @@
+.wp-pagenavi a, .wp-pagenavi a:link {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #008fbc;
+	color: #008fbc;
+	background-color: #edf6fb;
+}
+.wp-pagenavi a:visited {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #008fbc;
+	color: #008fbc;
+	background-color: #edf6fb;
+}
+.wp-pagenavi a:hover {	
+	border: 1px solid #edf6fb;
+	color: #edf6fb;
+	background-color: #008fbc;
+}
+.wp-pagenavi a:active {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #edf6fb;
+	color: #edf6fb;
+	background-color: #008fbc;
+}
+.wp-pagenavi span.pages {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px 2px 2px 2px;
+	color: #008fbc;
+	border: 1px solid #008fbc;
+	background-color: #edf6fb;
+}
+.wp-pagenavi span.current {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	font-weight: bold;
+	border: 1px solid #edf6fb;
+	color: #edf6fb;
+	background-color: #008fbc;
+}
+.wp-pagenavi span.extend {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;	
+	border: 1px solid #008fbc;
+	color: #008fbc;
+	background-color: #edf6fb;
+}

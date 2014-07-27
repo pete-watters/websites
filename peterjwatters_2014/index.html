@@ -1,0 +1,241 @@
+<!doctype html>
+<html ng-app="website">
+<head>
+ <title> Home Page | Peter Watters</title>
+ <meta charset="utf-8">
+ <link rel="shortcut icon" href="favicon.ico">
+ <link rel="icon" href="images/favicon.gif" type="image/gif">
+
+ <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/2.1.1/cerulean/bootstrap.min.css">
+ <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+ <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+ <link rel="stylesheet" href="css/jquery-ui-1.8.23.custom.css" type="text/css" media="all">
+ <link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css" media="all">
+
+
+</head>
+<body>
+<!-- top -->
+<header id="header">    
+	 <div class="container">
+    	<h1><a href="#/home">Peter Watters</a></h1>
+      <nav>
+        <ul>
+        	<li><a  href="#/home" class="current">Home</a></li>
+          <li><a  href="#/projects">Projects</a></li>
+          <li><a  href="#/portfolio">Portfolio</a></li>
+          <li><a  href="#/blog">Blog</a></li>
+          <li><a  href="#/contact">Photos</a></li>
+          <li><a  href="#/sitemap">Sitemap</a></li>
+          <li><a  href="#/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+</header>
+<!-- //top -->
+
+  <!-- #gallery -->
+  <section id="gallery">            
+    
+    <div class="container">
+      <ul id="myRoundabout">
+        <li><img name="integra" src="images/integra.jpg" alt=""></li>
+        <li><img name="fitnessperformancesystems"  src="images/fitnessperformancesystems.jpg" alt="" /></li>
+        <li><img name="ocuco" src="images/ocuco.jpg" alt=""></li>
+        <li><img name="peterjwatters_old" src="images/peterjwatters_old.png" alt=""></li>
+        <li><img name="student_perform" src="images/student_perform.jpg" alt="" /></li>
+        <li><img name="tnf_dashboard" src="images/tnf_dashboard_trafficLights.jpg" alt=""></li>
+        <li><img name="tnf_inventory" src="images/tnf_inventory_home.jpg" alt=""></li>
+        <li><img name="pel" src="images/pel.jpg" alt=""></li>
+      </ul>
+    </div>
+  </section>
+  <!-- /#gallery -->
+
+
+  <div class="main-box">
+    <div class="container">
+      <div class="inside">
+        <div class="wrapper">
+        	
+<div class="shadow"></div>
+
+
+<div id="container">
+
+
+  <!-- Error info's -->
+    <div class="info message">
+         <h3>FYI, something just happened!</h3>
+         <p>This is just an info notification message.</p>
+    </div>
+
+    <div class="error message">
+         <h3>OOPs, an error ocurred</h3>
+         <p>This is just an error notification message.</p>
+    </div>
+
+    <div class="warning message">
+         <h3>Wait, I must warn you!</h3>
+         <p>This is just a warning notification message.</p>
+    </div>
+
+    <div class="success message">
+         <h3>
+            <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+            Submission was successful 
+          </h3>
+         <div id="email-confirmation-message"></div>
+
+    </div>
+
+
+
+
+    <!-- Portfolio Modal -->
+    <div id="webPortfolioModal" class="modal hide fade large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Peter Watters:  Web Portfolio</h3>
+      </div>
+      <div class="modal-body">
+
+        <div class="tabbable tabs-left"> 
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab1" data-toggle="tab">Overview</a></li>
+          <li><a href="#tab2" data-toggle="tab">Websites</a></li>
+          <li><a href="#tab3" data-toggle="tab">Web Applications</a></li>
+          <li><a href="#tab4" data-toggle="tab">Other Projects</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab1">
+            <p>I have worked on various different websites and applications throughout the course of my career. I started learning to build websites in the year 2000 and my interest has continued since then. With the advent of cloud computer and browser based applications I have seen huge changes in the Web Development Community since I have started and now my hobby has become largely important in modern computing. </p>
+            <p>I am a programmer at heart however also have a keen eye for design so have worked a lot both on back end programming and front end user interface and experience design and development. I have categorized my portfolio into sections to make it easier to browse whats more interesting for you. As ever if you have any feedback please let me know via my contact page.</p>
+          </div>
+          <div class="tab-pane" id="tab2">            
+                <div class="row">
+                  <div class="website-nav-list-container span3">
+                  <ul class="nav nav-list website-nav-list">
+                      <li class="nav-header">Commercial Sites</li>
+                        <li class="active" name="physiodublin"><a href="#">Physio Dublin</a></li>
+                        <li><a href="#" name="fitnessperformancesystems">Fitness Performance Systems</a></li>   
+                        <li><a href="#" name="integra">Integra</a></li>     
+                        <li><a href="#" name="ocuco">Ocuco</a></li>   
+                        <li><a href="#">Carphone Warehouse</a></li>   
+                        <li><a href="#">Shop Electric</a></li>   
+                      <li class="divider"></li>    
+                      <li class="nav-header">Personal Sites</li>
+                        <li><a href="#">Code Blog</a></li>
+                        <li><a href="#">Gardening Blog</a></li>   
+                        <li><a href="#">Previous version of my site</a></li>   
+                      <li class="divider"></li>          
+                    </ul>
+                  </div>
+                  <div class="website-content-panel span8"> 
+                    <p>Websites were where things started off for me and here is a list of some of the most recent ones I have worked on. </p>
+                  </div>
+                </div>
+          </div>
+          <div class="tab-pane" id="tab3">
+            <p>Web Applications have become a major part of technology and throughout my studies and career I have developed several of them. I list a few here, some were academic projects and others were products I developed for internal and commercial use of companies I worked at. I have also included some demonstration pages and small projects I have completed to try and share some things I have learnt. </p>
+            <p> I include screenshots of these applications and live demonstrations where possible. Some of these applications are J2EE based and I currently cannot host that type of application on my hosting account. Some of them also rely on backend databases I know longer have permission to access.  I can provide source code upon request if you are interested. I used several languages to build these applications including Java, Bash, PHP and Python. </p>
+          </div>
+          <div class="tab-pane" id="tab4">
+            <p>Howdy, I'm in Section 2.</p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+
+
+
+    <div ng-view></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+    	<div class="wrapper">
+      <div class="fleft">
+        <a href="http://ie.linkedin.com/pub/peter-watters/31/8a/7a3/" target="_blank">
+          <span class="social-media linkedin-icon"></span>
+        </a>
+        <a href="https://twitter.com/Peter_J_W" target="_blank">
+          <span class="social-media twitter-icon"></span>
+        </a>
+        <a href="https://www.facebook.com/pete.watters.77" target="_blank">
+          <span class="social-media facebook-icon"></span>
+        </a>
+        <a href="https://plus.google.com/107971123418036966984/" target="_blank">
+          <span class="social-media googleplus-icon"></span>
+        </a>
+        <a href="#/contact">
+          <span class="social-media email-icon"></span>
+        </a>
+        </div>         
+      </div>
+        <div class="fright">
+          Copyright - Peter Watters 2014
+          </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+ <script src="js/plugins/jquery/jquery.validationEngine.js"></script> 
+ <script src="js/plugins/jquery/jquery.validationEngine-en.js"></script> 
+
+
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+<!-- sucess submit percentage loader -->
+ <script type="text/javascript" src="js/plugins/jquery/jquery.ui.touch-punch.min.js"></script>
+ <script type="text/javascript" src="js/plugins/jquery/jquery.percentageloader-01a.js"></script>
+
+ <script type="text/javascript" src="js/plugins/cufon-yui.js"></script>
+ <script type="text/javascript" src="js/plugins/Humanst521_BT_400.font.js"></script>
+ <script type="text/javascript" src="js/plugins/Humanst521_Lt_BT_400.font.js"></script>
+ <script type="text/javascript" src="js/plugins/roundabout.js"></script>
+ <script type="text/javascript" src="js/plugins/roundabout_shapes.js"></script>
+ <script type="text/javascript" src="js/plugins/gallery_init.js"></script>
+ <script type="text/javascript" src="js/plugins/cufon-replace.js"></script>
+
+  <!--[if lt IE 7]>
+    <link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="all">
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="plugins/js/html5.js"></script>
+    <script type="text/javascript" src="plugins/js/IE9.js"></script>
+  <![endif]-->
+    <script src="js/plugins/angular-1.0.0rc6.js"></script>
+    <script type="text/javascript" src="js/website.js"></script>
+    <script type="text/javascript" src="js/validate.js"></script>
+    <script>       
+    $(document).ready(function() {
+
+        $(".website-nav-list a").on("click", function(e){
+
+                        e.preventDefault();
+                        $(".website-content-panel").load('partials/portfolio/' + $(this).attr("name") +'.html');
+                        $(".website-nav-list .active").removeClass("active");
+                        $(this).parent().addClass("active");
+          })
+    });
+    </script>
+  <script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
